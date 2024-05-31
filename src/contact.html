@@ -15,7 +15,7 @@ layout: layout/base.html
 
   <div class="blue-container p-5 contact-container">
     
-    <form action="https://formspree.io/f/xgegqzrp" method="POST" id="contact-form" novalidate>
+    <form name="contact" method="POST" id="contact-form" novalidate netlify>
       <div class="mb-3">
         <label for="firstname" class="form-label">{{firstname-label}}</label>
         <input type="text" class="form-control" id="firstname" name="firstname" required />
