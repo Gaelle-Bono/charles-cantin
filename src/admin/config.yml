@@ -3,6 +3,6 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 media_folder: "assets/photos/uploads"
 collections:
-  - gallery: 'gallery
-  category: 'portrait'
-  path: 'assets/photos/'
+  - gallery: 'gallery'
+    category: 'portrait'
+    path: 'assets/photos/'
