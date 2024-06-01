@@ -29,9 +29,10 @@ collections:
             name: items 
             widget : list
             allow_add: false
+            delete: false
             fields:
               - { label : "Catégorie", name: "category", widget: "string" }
-              - { label : "Nom", name: "name", widget: "string" }
+              - { label : "Titre", name: "h2-title", widget: "string" }
               - { label : "Photos", name: "photos", widget: list }
       - name: "header"
         label: "Barre de navigation"
