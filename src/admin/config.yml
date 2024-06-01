@@ -3,6 +3,12 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 media_folder: "assets/photos/uploads"
 collections:
-  - gallery: 'gallery'
-    category: 'portrait'
-    path: 'assets/photos/'
+  - name: "service"
+    label: "Service"
+    folder: "services/"
+    create: true
+    fields:
+      - { label: "Tags", name: "tag", widget: "hidden", default: "service" }
+      - { label : "Title", name: "title", widget: "string" }
+      - { label : "Price", name: "price", widget: "string" }
+      - { label : "Description", name: "description", widget: "string" }
