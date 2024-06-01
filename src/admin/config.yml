@@ -32,8 +32,7 @@ collections:
           - { name: "contact-nav", label: "Contact title" }
       - name: "items"
         label: "Services"
-        widget : list
-        file: "src/_data/services.json"
+        file: "src/_data/services.yaml"
         allow_add: true
         fields:
           - { label : "Title", name: "title", widget: "string" }
