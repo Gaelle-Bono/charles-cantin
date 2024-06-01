@@ -16,3 +16,16 @@ collections:
       - { label : "Title", name: "title", widget: "string" }
       - { label : "Price", name: "price", widget: "string" }
       - { label : "Description", name: "description", widget: "string" }
+  - name: "config"
+    label: "Configuration"
+    files:
+      - name: "global"
+        label: "Global"
+        file: "src/_data/site.json"
+        fields:
+          - { name: "logo", label: "Logo" }
+          - { name: "home-nav", label: "Home title" }
+          - { name: "gallery-nav", label: "Gallery title" }
+          - { name: "services-nav", label: "Services title" }
+          - { name: "services-collections-nav", label: "Services collection title" }
+          - { name: "contact-nav", label: "Contact title" }
