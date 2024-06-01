@@ -21,6 +21,18 @@ collections:
               - { label : "Nom", name: "title", widget: "string" }
               - { label : "Prix", name: "price", widget: "string" }
               - { label : "Description", name: "description", widget: "string" }
+      - name: "photos"
+        label: "Gallerie Photos"
+        file: "src/_data/photos.json"
+        fields:
+          - label: Items
+            name: items 
+            widget : list
+            allow_add: false
+            fields:
+              - { label : "Catégorie", name: "category", widget: "string" }
+              - { label : "Nom", name: "name", widget: "string" }
+              - { label : "Photos", name: "photos", widget: list }
       - name: "header"
         label: "Barre de navigation"
         file: "src/_data/header.json"
