@@ -6,18 +6,6 @@ media_folder: "src/assets/photos/uploads"
 public_folder: "/assets/photos/uploads"
 
 collections:
-  - name: "config"
-    label: "Configuration"
-    files:
-      - name: "header"
-        label: "Barre de navigation"
-        file: "src/_data/header.json"
-        fields:
-          - { name: "logo", label: "Logo" }
-          - { name: "home-nav", label: "titre Accueil" }
-          - { name: "gallery-nav", label: "titre Gallerie photos" }
-          - { name: "services-nav", label: "titre Prestations" }
-          - { name: "contact-nav", label: "titre Contact" }
   - name: "items"
     label: "Prestations"
     file: "src/_data/services.json"
@@ -30,3 +18,12 @@ collections:
           - { label : "Nom", name: "title", widget: "string" }
           - { label : "Prix", name: "price", widget: "string" }
           - { label : "Description", name: "description", widget: "string" }
+  - name: "header"
+    label: "Barre de navigation"
+    file: "src/_data/header.json"
+    fields:
+      - { name: "logo", label: "Logo" }
+      - { name: "home-nav", label: "titre Accueil" }
+      - { name: "gallery-nav", label: "titre Gallerie photos" }
+      - { name: "services-nav", label: "titre Prestations" }
+      - { name: "contact-nav", label: "titre Contact" }
