@@ -31,10 +31,14 @@ collections:
           - { name: "services-collections-nav", label: "Services collection title" }
           - { name: "contact-nav", label: "Contact title" }
       - name: "items"
-        label: "Services"
-        file: "src/_data/services.yaml"
-        allow_add: true
+        label: "Prestations"
+        file: "src/_data/prestations.yaml"
         fields:
-          - { label : "Title", name: "title", widget: "string" }
-          - { label : "Price", name: "price", widget: "string" }
-          - { label : "Description", name: "description", widget: "string" }
+          - label: Services items
+            name: items 
+            widget : list
+            allow_add: true
+            fields:
+              - { label : "Title", name: "title", widget: "string" }
+              - { label : "Price", name: "price", widget: "string" }
+              - { label : "Description", name: "description", widget: "string" }
