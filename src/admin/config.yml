@@ -19,14 +19,14 @@ collections:
           - { name: "services-nav", label: "titre Prestations" }
           - { name: "contact-nav", label: "titre Contact" }
   - name: "items"
-        label: "Prestations"
-        file: "src/_data/services.json"
+    label: "Prestations"
+    file: "src/_data/services.json"
+    fields:
+      - label: Liste des prestations
+        name: items 
+        widget : list
+        allow_add: true
         fields:
-          - label: Liste des prestations
-            name: items 
-            widget : list
-            allow_add: true
-            fields:
-              - { label : "Nom", name: "title", widget: "string" }
-              - { label : "Prix", name: "price", widget: "string" }
-              - { label : "Description", name: "description", widget: "string" }
+          - { label : "Nom", name: "title", widget: "string" }
+          - { label : "Prix", name: "price", widget: "string" }
+          - { label : "Description", name: "description", widget: "string" }
