@@ -3,5 +3,6 @@
   "home-nav" : "Accueil",
   "gallery-nav" : "Galerie photos",
   "services-nav" : "Prestations",
+  "services-collections-nav": "Prestations collection",
   "contact-nav" : "Contact"
 }
