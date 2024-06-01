@@ -1,127 +1,136 @@
 {
-  "portrait": {
-    "h2-title": "Catégorie Portrait",
-    "items": [
-      {
-        "path": "/assets/photos/portrait01.jpg"
-      },
-      {
-        "path": "/assets/photos/portrait02.jpg"
-      },
-      {
-        "path": "/assets/photos/portrait03.jpg"
-      },
-      {
-        "path": "/assets/photos/portrait04.jpg"
-      },
-      {
-        "path": "/assets/photos/portrait05.jpg"
-      },
-      {
-        "path": "/uploads/wp-20171006-10-31-34-pro-2.jpg"
-      },
-      {
-        "path": "/uploads/1716816421450.jpg"
-      }
-    ]
-  },
-  "couple": {
-    "h2-title": "Catégorie Couple",
-    "items": [
-      {
-        "path": "/assets/photos/couple01.jpg"
-      },
-      {
-        "path": "/assets/photos/couple02.jpg"
-      },
-      {
-        "path": "/assets/photos/couple03.jpg"
-      },
-      {
-        "path": "/uploads/1716817128455.jpg"
-      }
-    ]
-  },
-  "marriage": {
-    "h2-title": "Catégorie Mariage",
-    "items": [
-      {
-        "path": "/assets/photos/mariage01.jpg"
-      },
-      {
-        "path": "/assets/photos/mariage02.jpg"
-      },
-      {
-        "path": "/assets/photos/mariage03.jpg"
-      },
-      {
-        "path": "/assets/photos/mariage04.jpg"
-      },
-      {
-        "path": "/assets/photos/mariage05.jpg"
-      }
-    ]
-  },
-  "pregnancy": {
-    "h2-title": "Catégorie Grossesse",
-    "items": [
-      {
-        "path": "/assets/photos/grossesse01.jpg"
-      },
-      {
-        "path": "/assets/photos/grossesse02.jpg"
-      },
-      {
-        "path": "/assets/photos/grossesse03.jpg"
-      },
-      {
-        "path": "/uploads/1716816620739.jpg"
-      }
-    ]
-  },
-  "baby": {
-    "h2-title": "Catégorie Bébé",
-    "items": [
-      {
-        "path": "/assets/photos/bebe01.jpg"
-      },
-      {
-        "path": "/assets/photos/bebe02.jpg"
-      },
-      {
-        "path": "/assets/photos/bebe03.jpg"
-      },
-      {
-        "path": "/assets/photos/bebe04.jpg"
-      }
-    ]
-  },
-  "baptism": {
-    "h2-title": "Catégorie Baptême",
-    "items": [
-      {
-        "path": "/assets/photos/bapteme01.jpg"
-      },
-      {
-        "path": "/assets/photos/bapteme02.jpg"
-      },
-      {
-        "path": "/assets/photos/bapteme03.jpg"
-      }
-    ]
-  },
-  "family": {
-    "h2-title": "Catégorie Famille",
-    "items": [
-      {
-        "path": "/assets/photos/famille01.jpg"
-      },
-      {
-        "path": "/assets/photos/famille02.jpg"
-      },
-      {
-        "path": "/assets/photos/famille03.jpg"
-      }
-    ]
-  }
+  "items": [
+    {
+      "category": "portrait",
+      "h2-title": "Catégorie Portrait",
+      "photos": [
+        {
+          "path": "/assets/photos/portrait01.jpg"
+        },
+        {
+          "path": "/assets/photos/portrait02.jpg"
+        },
+        {
+          "path": "/assets/photos/portrait03.jpg"
+        },
+        {
+          "path": "/assets/photos/portrait04.jpg"
+        },
+        {
+          "path": "/assets/photos/portrait05.jpg"
+        },
+        {
+          "path": "/assets/photos/uploads/wp-20171006-10-31-34-pro-2.jpg"
+        },
+        {
+          "path": "/assets/photos/uploads/1716816421450.jpg"
+        }
+      ]
+    },
+    {
+      "category": "couple",
+      "h2-title": "Catégorie Couple",
+      "photos": [
+        {
+          "path": "/assets/photos/couple01.jpg"
+        },
+        {
+          "path": "/assets/photos/couple02.jpg"
+        },
+        {
+          "path": "/assets/photos/couple03.jpg"
+        },
+        {
+          "path": "/assets/photos/uploads/1716817128455.jpg"
+        }
+      ]
+    },
+    {
+      "category": "marriage",
+      "h2-title": "Catégorie Marriage",
+      "photos": [
+        {
+          "path": "/assets/photos/mariage01.jpg"
+        },
+        {
+          "path": "/assets/photos/mariage02.jpg"
+        },
+        {
+          "path": "/assets/photos/mariage03.jpg"
+        },
+        {
+          "path": "/assets/photos/mariage04.jpg"
+        },
+        {
+          "path": "/assets/photos/mariage05.jpg"
+        }
+      ]
+    },
+    {
+      "category": "pregnancy",
+      "h2-title": "Catégorie Grossesse",
+      "photos": [
+        {
+          "path": "/assets/photos/grossesse01.jpg"
+        },
+        {
+          "path": "/assets/photos/grossesse02.jpg"
+        },
+        {
+          "path": "/assets/photos/grossesse03.jpg"
+        },
+        {
+          "path": "/assets/photos/uploads/1716816620739.jpg"
+        }
+      ]
+    },
+    {
+      "category": "baby",
+      "h2-title": "Catégorie Bébé",
+      "photos": [
+        {
+          "path": "/assets/photos/bebe01.jpg"
+        },
+        {
+          "path": "/assets/photos/bebe02.jpg"
+        },
+        {
+          "path": "/assets/photos/bebe03.jpg"
+        },
+        {
+          "path": "/assets/photos/bebe04.jpg"
+        }
+      ]
+    },
+    {
+      "category": "baptism",
+      "h2-title": "Catégorie Baptême",
+      "photos": [
+        {
+          "path": "/assets/photos/bapteme01.jpg"
+        },
+        {
+          "path": "/assets/photos/bapteme02.jpg"
+        },
+        {
+          "path": "/assets/photos/bapteme03.jpg"
+        }
+      ]
+    },
+    {
+      "category": "family",
+      "h2-title": "Catégorie Famille",
+      "photos": [
+        {
+          "path": "/assets/photos/famille01.jpg"
+        },
+        {
+          "path": "/assets/photos/famille02.jpg"
+        },
+        {
+          "path": "/assets/photos/famille03.jpg"
+        }
+      ]
+    }
+  ]
 }
