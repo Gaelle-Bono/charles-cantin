@@ -16,12 +16,13 @@ collections:
       - { label : "Title", name: "title", widget: "string" }
       - { label : "Price", name: "price", widget: "string" }
       - { label : "Description", name: "description", widget: "string" }
+  
   - name: "config"
     label: "Configuration"
     files:
-      - name: "global"
-        label: "Global"
-        file: "src/_data/site.json"
+      - name: "header"
+        label: "Header"
+        file: "src/_data/header.json"
         fields:
           - { name: "logo", label: "Logo" }
           - { name: "home-nav", label: "Home title" }
@@ -29,3 +30,12 @@ collections:
           - { name: "services-nav", label: "Services title" }
           - { name: "services-collections-nav", label: "Services collection title" }
           - { name: "contact-nav", label: "Contact title" }
+      - name: "items"
+        label: "Services"
+        widget : list
+        file: "src/_data/services.json"
+        allow_add: true
+        fields:
+          - { label : "Title", name: "title", widget: "string" }
+          - { label : "Price", name: "price", widget: "string" }
+          - { label : "Description", name: "description", widget: "string" }
