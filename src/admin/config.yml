@@ -29,11 +29,11 @@ collections:
             name: items 
             widget : list
             allow_add: false
-            delete: false
+            allow_delete: false
             fields:
               - { label : "Catégorie", name: "category", widget: "string" }
               - { label : "Titre", name: "h2-title", widget: "string" }
-              - { label : "Photos", name: "photos", widget: list, allow_add: true, delete: true, field: {label: "URL", name: "url", widget: "string"}}
+              - { label : "Photos", name: "photos", widget: list, allow_add: true, field: {label: "Chemin complet", name: "path", widget: "string"}}
       - name: "header"
         label: "Barre de navigation"
         file: "src/_data/header.json"
