@@ -10,10 +10,10 @@ collections:
     name: "settings"
     files:
       - name: "items"
-        label: "Prestations"
+        label: "Prestations et tarifs"
         file: "src/_data/services.json"
         fields:
-          - label: Liste des prestations
+          - label: Items
             name: items 
             widget : list
             allow_add: true
