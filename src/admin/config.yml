@@ -27,11 +27,11 @@ collections:
         fields:
           - label: Items
             name: items 
+            delete : false
             widget : list
             allow_add: false
-            allow_delete: false
             fields:
-              - { label : "Catégorie", name: "category", widget: "string" }
+              - { label : "Catégorie", name: "category", delete : false, widget: "string" }
               - { label : "Titre", name: "h2-title", widget: "string" }
               - { label : "Photos", name: "photos", widget: list, allow_add: true, field: {label: "Chemin complet", name: "path", widget: "string"}}
       - name: "header"
