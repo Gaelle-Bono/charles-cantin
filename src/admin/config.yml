@@ -6,39 +6,27 @@ media_folder: "src/assets/photos/uploads"
 public_folder: "/assets/photos/uploads"
 
 collections:
-  - name: "service"
-    label: "Service"
-    folder: "src/services"
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - { label: "Tags", name: "tags", widget: "hidden", default: "service" }
-      - { label : "Title", name: "title", widget: "string" }
-      - { label : "Price", name: "price", widget: "string" }
-      - { label : "Description", name: "description", widget: "string" }
-  
   - name: "config"
     label: "Configuration"
     files:
       - name: "header"
-        label: "Header"
+        label: "Barre de navigation"
         file: "src/_data/header.json"
         fields:
           - { name: "logo", label: "Logo" }
-          - { name: "home-nav", label: "Home title" }
-          - { name: "gallery-nav", label: "Gallery title" }
-          - { name: "services-nav", label: "Services title" }
-          - { name: "services-collections-nav", label: "Services collection title" }
-          - { name: "contact-nav", label: "Contact title" }
-      - name: "items"
+          - { name: "home-nav", label: "titre Accueil" }
+          - { name: "gallery-nav", label: "titre Gallerie photos" }
+          - { name: "services-nav", label: "titre Prestations" }
+          - { name: "contact-nav", label: "titre Contact" }
+  - name: "items"
         label: "Prestations"
         file: "src/_data/services.json"
         fields:
-          - label: Services items
+          - label: Liste des prestations
             name: items 
             widget : list
             allow_add: true
             fields:
-              - { label : "Title", name: "title", widget: "string" }
-              - { label : "Price", name: "price", widget: "string" }
+              - { label : "Nom", name: "title", widget: "string" }
+              - { label : "Prix", name: "price", widget: "string" }
               - { label : "Description", name: "description", widget: "string" }
