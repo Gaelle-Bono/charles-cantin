@@ -33,7 +33,7 @@ collections:
             fields:
               - { label : "Catégorie", name: "category", widget: "string" }
               - { label : "Titre", name: "h2-title", widget: "string" }
-              - { label : "Photos", name: "photos", widget: list }
+              - { label : "Photos", name: "photos", widget: list, allow_add: true, delete: true, field: {label: "URL", name: "url", widget: "string"}}
       - name: "header"
         label: "Barre de navigation"
         file: "src/_data/header.json"
