@@ -32,7 +32,7 @@ collections:
           - { name: "contact-nav", label: "Contact title" }
       - name: "items"
         label: "Prestations"
-        file: "src/_data/prestations.yaml"
+        file: "src/_data/services.json"
         fields:
           - label: Services items
             name: items 
