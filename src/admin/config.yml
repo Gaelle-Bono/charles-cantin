@@ -18,9 +18,6 @@ collections:
           - { name: "gallery-nav", label: "titre Gallerie photos" }
           - { name: "services-nav", label: "titre Prestations" }
           - { name: "contact-nav", label: "titre Contact" }
-  - name: "gallery_photos"
-    label: "Gallerie Photos"
-    files:
       - name: "portrait_photos"
         label: "Photos Portrait"
         file: "src/_data/photos_portraits.json"
@@ -70,15 +67,15 @@ collections:
           - { label: "Catégorie", name: "category", widget: "string", value: "family" }
           - { label: "Titre Catégorie", name: "h2-title", widget: "string" }
           - { label: "Photos", name: photos, widget: list, allow_add: true, field: { label: "Image", name: "path", widget: "image" }}
-  - name: "services"
-    label: "Prestations et tarifs"
-    file: "src/_data/services.json"
-    fields:
-      - label: "Prestations"
-        name: items
-        widget: list
-        allow_add: true
+      - name: "services"
+        label: "Prestations et tarifs"
+        file: "src/_data/services.json"
         fields:
-          - { label : "Nom", name: "title", widget: "string" }
-          - { label : "Prix", name: "price", widget: "string" }
-          - { label : "Description", name: "description", widget: "string" }
+          - label: "Prestations"
+            name: items
+            widget: list
+            allow_add: true
+            fields:
+              - { label : "Nom", name: "title", widget: "string" }
+              - { label : "Prix", name: "price", widget: "string" }
+              - { label : "Description", name: "description", widget: "string" }
