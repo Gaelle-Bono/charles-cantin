@@ -30,3 +30,15 @@ collections:
               - { label : "Nom", name: "title", widget: "string" }
               - { label : "Prix", name: "price", widget: "string" }
               - { label : "Description", name: "description", widget: "string" }
+      - name: "portrait_photos"
+        label: "Photos Portrait"
+        file: "src/_data/photos_portraits.json"
+        fields:
+          - { label: "Catégorie", name: "category", widget: "string", value: "portrait" }
+          - { label: "Titre Catégorie", name: "h2-title", widget: "string" }
+          - label: "Photos"
+            name: photos
+            widget: list
+            allow_add: true
+            field:
+              - { label: "Image", name: "path", widget: "image" }
