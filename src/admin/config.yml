@@ -23,7 +23,7 @@ collections:
         file: "src/_data/services.json"
         fields:
           - label: "Prestation"
-            name: services
+            name: items
             widget: list
             allow_add: true
             fields:
