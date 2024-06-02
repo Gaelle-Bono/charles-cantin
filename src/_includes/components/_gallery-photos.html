@@ -5,7 +5,7 @@
   <div class="p-4 category visible" data-category="{{ photos_portraits.category }}">
     <h2 class="p-4 h2-title">{{ photos_portraits.h2-title }}</h2>
     <div class="row">
-      {% for photo in photos_portrait.photos %}
+      {% for photo in photos_portraits.photos %}
         <!-- show the photos -->
         <div class="col-12 col-sm-4 col-lg-3 pb-4">
           <img class="image" src="{{ photo.path }}" alt="{{ photo.path | removeExt }}">
