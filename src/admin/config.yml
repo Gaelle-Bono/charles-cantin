@@ -7,10 +7,10 @@ public_folder: "/assets/photos"
 
 collections:
   - name: "photos"
-    label: "Gallerie photos"
+    label: "Photos"
     folder: "src/photos"
     slug: "{{slug}}"
-    create : false
+    create : true
     fields:
       - { label: "Catégorie", name: "category", widget: "string"}
       - { label: "Chemin complet", name: "url", widget: "image"}
