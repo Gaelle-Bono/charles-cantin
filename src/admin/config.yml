@@ -7,21 +7,19 @@ public_folder: "/assets/photos"
 
 collections:
   - name: "portrait_photos"
-    label: "Photo de portrait"
+    label: "Photos Portrait"
     folder: "src/photos"
     create : true
-    filter: {field: "Catégorie", value: "portrait"}
     fields:
       - { label: "Chemin complet", name: "url", widget: "image"}
-      - { label: "Catégorie", name: "category", widget: "select", options: ["portrait", "couple"]}
+      - { label: "Catégorie", name: "category", widget: "string", value: "portrait"}
   - name: "couple_photos"
-    label: "Photo de couple"
+    label: "Photos Couple"
     folder: "src/photos"
     create : true
-    filter: {field: "Catégorie", value: "couple"}
     fields:
       - { label: "Chemin complet", name: "url", widget: "image"}
-      - { label: "Catégorie", name: "category", widget: "select", options: ["portrait", "couple"]}    
+      - { label: "Catégorie", name: "category", widget: "string", value: "couple"}    
   - label: "Paramètres de configuration"
     name: "settings"
     files:
