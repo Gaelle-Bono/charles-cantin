@@ -1,4 +1,4 @@
 ---
-category: couple
-url: /assets/photos/portrait02.jpg
+category: portrait
+url: ../assets/photos/portrait02.jpg
 ---

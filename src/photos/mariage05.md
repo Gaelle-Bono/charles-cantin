@@ -1,4 +1,4 @@
 ---
-category: couple
-url: /assets/photos/mariage05.jpg
+category: marriage
+url: ../assets/photos/mariage05.jpg
 ---

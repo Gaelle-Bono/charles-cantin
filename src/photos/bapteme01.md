@@ -1,4 +1,4 @@
 ---
 category: baptism
-url: /assets/photos/bapteme01.jpg
+url: ../assets/photos/bapteme01.jpg
 ---

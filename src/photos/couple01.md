@@ -1,4 +1,4 @@
 ---
 category: couple
-url: /assets/photos/couple01.jpg
+url: ../assets/photos/couple01.jpg
 ---

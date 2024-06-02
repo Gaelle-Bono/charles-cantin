@@ -35,6 +35,13 @@ module.exports = function (eleventyConfig) {
     });
   });
 
+    //Filter using `Array.filter`
+    eleventyConfig.addCollection("marriages", function (collectionApi) {
+      return collectionApi.getAll().filter(function (item) {
+        return item.data.category === "marriage";
+      });
+    });
+
   //Filter using `Array.filter`
   eleventyConfig.addCollection("pregnancies", function (collectionApi) {
     return collectionApi.getAll().filter(function (item) {
