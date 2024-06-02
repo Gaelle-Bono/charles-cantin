@@ -13,7 +13,7 @@ collections:
     create : true
     fields:
       - { label: "Chemin complet", name: "url", widget: "image"}
-      - { label: "Catégorie", name: "category", widget: "select", options: ["portrait", "couple","marriage","pregnancy","baby","baptism","family"]}
+      - { label: "Catégorie", name: "category", widget: "string", options: ["portrait", "couple","marriage","pregnancy","baby","baptism","family"]}
   - label: "Paramètres de configuration"
     name: "settings"
     files:
