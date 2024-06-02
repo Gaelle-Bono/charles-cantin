@@ -2,11 +2,11 @@
   "items": [
     {
       "path": "/assets/photos/portrait01.jpg",
-      "category": "portrait" 
+      "category": "portrait"
     },
     {
       "path": "/assets/photos/portrait02.jpg",
-      "category": "portrait" 
+      "category": "portrait"
     },
     {
       "path": "/assets/photos/portrait03.jpg",
@@ -18,6 +18,10 @@
     },
     {
       "path": "/assets/photos/portrait05.jpg",
+      "category": "portrait"
+    },
+    {
+      "path": "src/assets/photos/dscn0982.jpg",
       "category": "portrait"
     }
   ]
