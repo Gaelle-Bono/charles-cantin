@@ -1,19 +1,24 @@
 {
   "items": [
     {
-      "path": "/assets/photos/portrait01.jpg"
+      "path": "/assets/photos/portrait01.jpg",
+      "category": "portrait" 
     },
     {
-      "path": "/assets/photos/portrait02.jpg"
+      "path": "/assets/photos/portrait02.jpg",
+      "category": "portrait" 
     },
     {
-      "path": "/assets/photos/portrait03.jpg"
+      "path": "/assets/photos/portrait03.jpg",
+      "category": "portrait"
     },
     {
-      "path": "/assets/photos/portrait04.jpg"
+      "path": "/assets/photos/portrait04.jpg",
+      "category": "portrait"
     },
     {
-      "path": "/assets/photos/portrait05.jpg"
+      "path": "/assets/photos/portrait05.jpg",
+      "category": "portrait"
     }
   ]
 }
