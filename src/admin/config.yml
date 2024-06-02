@@ -26,7 +26,7 @@ collections:
             name: items
             widget: list
             allow_add: true
-            field: 
+            fields: 
               - { label: "Chemin photo", name: "path", widget: "string" }
       - name: "couple_photos"
         label: "Photos Couple"
