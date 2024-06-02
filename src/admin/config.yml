@@ -36,9 +36,4 @@ collections:
         fields:
           - { label: "Catégorie", name: "category", widget: "string", value: "portrait" }
           - { label: "Titre Catégorie", name: "h2-title", widget: "string" }
-          - label: "Photos"
-            name: photos
-            widget: list
-            allow_add: true
-            field:
-              - { label: "Image", name: "path" }
+          - { label: "Photos", name: items, widget: list, allow_add: true, field: { label: "Image", name: "path" }}
