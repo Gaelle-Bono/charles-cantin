@@ -9,6 +9,7 @@ collections:
   - name: "photos"
     label: "Gallerie photos"
     folder: "src/photos"
+    slug: "{{slug}}"
     create: true
     fields:
       - { label: "Catégorie", name: "category", widget: "string"}
