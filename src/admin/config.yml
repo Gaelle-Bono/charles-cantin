@@ -7,13 +7,13 @@ public_folder: "/assets/photos"
 
 collections:
   - name: "photos"
-    label: "Photos"
+    label: "Photo"
     folder: "src/photos"
     slug: "{{slug}}"
     create : true
     fields:
-      - { label: "Catégorie", name: "category", widget: "string"}
       - { label: "Chemin complet", name: "url", widget: "image"}
+      - { label: "Catégorie", name: "category", widget: "string"}
   - label: "Paramètres de configuration"
     name: "settings"
     files:
@@ -30,8 +30,8 @@ collections:
         label: "Prestations et tarifs"
         file: "src/_data/services.json"
         fields:
-          - label: Items
-            name: items 
+          - label: "Prestation"
+            name: services
             widget : list
             allow_add: true
             fields:
