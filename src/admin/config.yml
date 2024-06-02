@@ -41,4 +41,4 @@ collections:
             widget: list
             allow_add: true
             field:
-              - { label: "Image", name: "path", widget: "image" }
+              - { label: "Image", name: "path" }
