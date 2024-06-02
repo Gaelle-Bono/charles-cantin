@@ -25,12 +25,12 @@ collections:
         label: "Gallerie Photos"
         file: "src/_data/photos.json"
         fields:
-          - label: Catégorie Portrait
+          - label: Catégorie Portraits
             name: portrait
             fields:
               - { label : "Titre", name: "h2-title", widget: "string" }
               - { label : "Photos", name: "items", widget: list, allow_add: true, field: {label: "Chemin complet", name: "path", widget: "string"}}
-          - label: Catégorie Couple
+          - label: Catégorie Couples
             name: couple
             fields:
               - { label : "Titre", name: "h2-title", widget: "string" }
