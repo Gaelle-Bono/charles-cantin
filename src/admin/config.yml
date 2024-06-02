@@ -2,8 +2,8 @@ backend:
   name: git-gateway
   branch: main # Branch to update
 
-media_folder: "src/assets/photos/uploads"
-public_folder: "/assets/photos/uploads"
+media_folder: "src/assets/photos"
+public_folder: "/assets/photos"
 
 collections:
   - label: "Paramètres de configuration"
@@ -25,15 +25,21 @@ collections:
         label: "Gallerie Photos"
         file: "src/_data/photos.json"
         fields:
-          - label: Items
-            name: items 
-            delete : false
-            widget : list
-            allow_add: false
+          - label: Catégorie Portrait
+            name: portrait
             fields:
-              - { label : "Catégorie", name: "category", delete : false, widget: "string" }
               - { label : "Titre", name: "h2-title", widget: "string" }
-              - { label : "Photos", name: "photos", widget: list, allow_add: true, field: {label: "Chemin complet", name: "path", widget: "string"}}
+              - { label : "Photos", name: "items", widget: list, allow_add: true, field: {label: "Chemin complet", name: "path", widget: "string"}}
+          - label: Catégorie Couple
+            name: couple
+            fields:
+              - { label : "Titre", name: "h2-title", widget: "string" }
+              - { label : "Photos", name: "items", widget: list, allow_add: true, field: {label: "Chemin complet", name: "path", widget: "string"}}
+          - label: Catégorie Portrait
+            name: portrait
+            fields:
+              - { label : "Titre", name: "h2-title", widget: "string" }
+              - { label : "Photos", name: "items", widget: list, allow_add: true, field: {label: "Chemin complet", name: "path", widget: "string"}}
       - name: "header"
         label: "Barre de navigation"
         file: "src/_data/header.json"
