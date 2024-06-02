@@ -24,7 +24,7 @@ collections:
         fields:
           - { label: "Catégorie", name: "category",  widget: "hidden", value: "portrait" }
           - { label: "Titre Catégorie", name: "h2-title", widget: "string" }
-          - { label: "Photos", name: photos, widget: list, allow_add: true, field: { label: "Image", name: "path", widget: "image" }}
+          - { label: "Photos", name: photos, widget: list, allow_add: true, field: { label: "Chemin complet", name: "path", widget: "string" }}
       - name: "couple_photos"
         label: "Photos Couple"
         file: "src/_data/photos_couples.json"
