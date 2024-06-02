@@ -5,21 +5,21 @@ backend:
 media_folder: "src/assets/photos"
 public_folder: "/assets/photos"
 
-  branch: main # Branch to update
-
-media_folder: "src/assets/photos"
-public_folder: "/assets/photos"
-
 collections:
   - name: "portrait_photos"
     label: "Photos Portrait"
     file: "src/_data/photos_portraits.json"
-    widget : list
-    allow_add: true
     fields:
+      - { label: "Catégorie", name: "category", widget: "string", value: "portrait" }
+      - { label: "Titre Catégorie", name: "h2-title", widget: "string" }
       - { label: "Image", name: "path", widget: "image"}
-  - label: "Paramètres de configuration"
-    name: "settings"
+      - label: "Photos"
+        name: photos
+        widget: list
+        field:
+          - { label: "Image", name: "path", widget: "image" }
+  - name: "settings"
+    label: "Paramètres de configuration"
     files:
       - name: "header"
         label: "Barre de navigation"
@@ -36,7 +36,7 @@ collections:
         fields:
           - label: "Prestation"
             name: services
-            widget : list
+            widget: list
             allow_add: true
             fields:
               - { label : "Nom", name: "title", widget: "string" }
