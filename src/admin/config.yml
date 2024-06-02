@@ -35,11 +35,6 @@ collections:
             fields:
               - { label : "Titre", name: "h2-title", widget: "string" }
               - { label : "Photos", name: "items", widget: list, allow_add: true, field: {label: "Chemin complet", name: "path", widget: "string"}}
-          - label: Catégorie Portrait
-            name: portrait
-            fields:
-              - { label : "Titre", name: "h2-title", widget: "string" }
-              - { label : "Photos", name: "items", widget: list, allow_add: true, field: {label: "Chemin complet", name: "path", widget: "string"}}
       - name: "header"
         label: "Barre de navigation"
         file: "src/_data/header.json"
