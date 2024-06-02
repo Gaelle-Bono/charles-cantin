@@ -21,8 +21,8 @@ collections:
       - name: "portrait_photos"
         label: "Photos Portrait"
         file: "src/_data/photos_portraits.json"
-        fields:
-          - { label: "Photos", name: items, widget: list, allow_add: true, fields: { label: "Chemin photo", name: "path", widget: "string" } }
+        field:
+          - { label: "Photos", name: items, widget: list, allow_add: true, field: { label: "Chemin photo", name: "path", widget: "string" } }
       - name: "couple_photos"
         label: "Photos Couple"
         file: "src/_data/photos_couples.json"
