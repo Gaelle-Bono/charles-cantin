@@ -1,4 +1,4 @@
 ---
-category: "baby"
-url: "../assets/photos/bebe01.jpg"
+category: grossesse
+url: /assets/photos/couple01.jpg
 ---
