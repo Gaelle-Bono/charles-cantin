@@ -22,7 +22,6 @@ function dropdownitemSelection() {
           break;
         case 'Grossesse':
           showSelectedCategoryPhotos("pregnancy");
-
           break;
         case 'Bébé':
           showSelectedCategoryPhotos("baby");

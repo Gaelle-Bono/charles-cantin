@@ -1,10 +1,18 @@
+//const yaml = require("js-yaml");
+
 
 module.exports = function (eleventyConfig) {
+
+  // To Support .yaml Extension in _data
+  //eleventyConfig.addDataExtension("yaml", (contents) => yaml.load(contents));
+
 
   eleventyConfig.addPassthroughCopy("src/admin");
 
   eleventyConfig.addPassthroughCopy('src/assets');
   eleventyConfig.addPassthroughCopy('src/js');
+  eleventyConfig.addPassthroughCopy('src/services');
+
   eleventyConfig.addWatchTarget('src/js');
   eleventyConfig.addPassthroughCopy('src/css');
   eleventyConfig.addWatchTarget('src/css');

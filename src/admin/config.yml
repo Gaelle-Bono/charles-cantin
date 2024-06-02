@@ -5,6 +5,11 @@ backend:
 media_folder: "src/assets/photos"
 public_folder: "/assets/photos"
 
+  branch: main # Branch to update
+
+media_folder: "src/assets/photos"
+public_folder: "/assets/photos"
+
 collections:
   - name: "portrait_photos"
     label: "Photos Portrait"
