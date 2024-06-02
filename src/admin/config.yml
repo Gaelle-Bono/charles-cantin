@@ -21,7 +21,7 @@ collections:
         label: "Barre de navigation"
         file: "src/_data/header.json"
         fields:
-          - { name: "logo", label: "Logo" }
+          - { name: "logo", label: "Logo", widget: "image" }
           - { name: "home-nav", label: "titre Accueil" }
           - { name: "gallery-nav", label: "titre Gallerie photos" }
           - { name: "services-nav", label: "titre Prestations" }
