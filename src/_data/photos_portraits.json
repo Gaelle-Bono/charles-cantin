@@ -1,27 +1,27 @@
 {
   "items": [
     {
-      "path": "/assets/photos/portrait01.jpg",
+      "name": "portrait01.jpg",
       "category": "portrait"
     },
     {
-      "path": "/assets/photos/portrait02.jpg",
+      "name": "portrait02.jpg",
       "category": "portrait"
     },
     {
-      "path": "/assets/photos/portrait03.jpg",
+      "name": "portrait03.jpg",
       "category": "portrait"
     },
     {
-      "path": "/assets/photos/portrait04.jpg",
+      "name": "portrait04.jpg",
       "category": "portrait"
     },
     {
-      "path": "/assets/photos/portrait05.jpg",
+      "name": "portrait05.jpg",
       "category": "portrait"
     },
     {
-      "path": "/assets/photos/dscn0982.jpg",
+      "name": "dscn0982.jpg",
       "category": "portrait"
     }
   ]
