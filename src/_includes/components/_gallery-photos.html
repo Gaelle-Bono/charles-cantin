@@ -1,10 +1,10 @@
 <div class="container-fluid gallery-photos">
   
   <!-- portrait -->
-  <div class="p-4 category visible" data-category="portrait">
-    <h2 class="p-4 h2-title">{{ photos.portrait.h2-title }}</h2>
+  <div class="p-4 category visible" data-category="{{ photos_portraits.category }}">
+    <h2 class="p-4 h2-title">{{ photos_portraits.h2-title }}</h2>
     <div class="row">
-      {% for photo in photos.portrait.items %}
+      {% for photo in photos_portrait.photos %}
         <!-- show the photos -->
         <div class="col-12 col-sm-4 col-lg-3 pb-4">
           <img class="image" src="{{ photo.path }}" alt="{{ photo.path | removeExt }}">
@@ -14,10 +14,10 @@
   </div>
 
   <!-- couple -->
-  <div class="p-4 category visible" data-category="couple">
-    <h2 class="p-4 h2-title">{{ photos.couple.h2-title }}</h2>
+  <div class="p-4 category visible" data-category="{{ photos_couples.category }}">
+    <h2 class="p-4 h2-title">{{ photos_couples.h2-title }}</h2>
     <div class="row">
-      {% for photo in photos.couple.items %}
+      {% for photo in photos_couples.photos %}
         <!-- show the photos -->
         <div class="col-12 col-sm-4 col-lg-3 pb-4">
           <img class="image" src="{{ photo.path }}" alt="{{ photo.path | removeExt }}">
@@ -27,10 +27,10 @@
   </div>
 
   <!-- marriage -->
-  <div class="p-4 category visible" data-category="marriage">
-    <h2 class="p-4 h2-title">{{ photos.marriage.h2-title }}</h2>
+  <div class="p-4 category visible" data-category="{{ photos_marriages.category }}">
+    <h2 class="p-4 h2-title">{{ photos_marriages.h2-title }}</h2>
     <div class="row">
-      {% for photo in photos.marriage.items %}
+      {% for photo in photos_marriages.photos %}
         <!-- show the photos -->
         <div class="col-12 col-sm-4 col-lg-3 pb-4">
           <img class="image" src="{{ photo.path }}" alt="{{ photo.path | removeExt }}">
@@ -40,10 +40,10 @@
   </div>
 
   <!-- pregnancy -->
-  <div class="p-4 category visible" data-category="pregnancy">
-    <h2 class="p-4 h2-title">{{ photos.pregnancy.h2-title }}</h2>
+  <div class="p-4 category visible" data-category="{{ photos_pregnancies.category }}">
+    <h2 class="p-4 h2-title">{{ photos_pregnancies.h2-title }}</h2>
     <div class="row">
-      {% for photo in photos.pregnancy.items %}
+      {% for photo in photos_pregnancies.photos %}
         <!-- show the photos -->
         <div class="col-12 col-sm-4 col-lg-3 pb-4">
           <img class="image" src="{{ photo.path }}" alt="{{ photo.path | removeExt }}">
@@ -53,10 +53,10 @@
   </div>
 
   <!-- baby -->
-  <div class="p-4 category visible" data-category="baby">
-    <h2 class="p-4 h2-title">{{ photos.baby.h2-title }}</h2>
+  <div class="p-4 category visible" data-category="{{ photos_babies.category }}">
+    <h2 class="p-4 h2-title">{{ photos_babies.h2-title }}</h2>
     <div class="row">
-      {% for photo in photos.baby.items %}
+      {% for photo in photos_babies.photos %}
         <!-- show the photos -->
         <div class="col-12 col-sm-4 col-lg-3 pb-4">
           <img class="image" src="{{ photo.path }}" alt="{{ photo.path | removeExt }}">
@@ -66,10 +66,10 @@
   </div>
 
  <!-- baptism -->
-  <div class="p-4 category visible" data-category="baptism">
-    <h2 class="p-4 h2-title">{{ photos.baptism.h2-title }}</h2>
+  <div class="p-4 category visible" data-category="{{ photos_baptismes.category }}">
+    <h2 class="p-4 h2-title">{{ photos_baptismes.h2-title }}</h2>
     <div class="row">
-      {% for photo in photos.baptism.items %}
+      {% for photo in photos_baptismes.photos %}
         <!-- show the photos -->
         <div class="col-12 col-sm-4 col-lg-3 pb-4">
           <img class="image" src="{{ photo.path }}" alt="{{ photo.path | removeExt }}">
@@ -79,10 +79,10 @@
   </div>
 
  <!-- family -->
-  <div class="p-4 category visible" data-category="family">
-    <h2 class="p-4 h2-title">{{ photos.family.h2-title }}</h2>
+  <div class="p-4 category visible" data-category="{{ photos_families.category }}">
+    <h2 class="p-4 h2-title">{{ photos_families.h2-title }}</h2>
     <div class="row">
-      {% for photo in photos.family.items %}
+      {% for photo in photos_families.photos %}
         <!-- show the photos -->
         <div class="col-12 col-sm-4 col-lg-3 pb-4">
           <img class="image" src="{{ photo.path }}" alt="{{ photo.path | removeExt }}">

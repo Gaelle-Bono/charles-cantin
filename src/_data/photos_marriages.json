@@ -1,0 +1,21 @@
+{
+  "category": "marriage",
+  "h2-title": "Catégorie Mariage",
+  "photos": [
+    {
+      "path": "/assets/photos/marriage01.jpg"
+    },
+    {
+      "path": "/assets/photos/mariage02.jpg"
+    },
+    {
+      "path": "/assets/photos/mariage03.jpg"
+    },
+    {
+      "path": "/assets/photos/mariage04.jpg"
+    },
+    {
+      "path": "/assets/photos/mariage05.jpg"
+    }
+  ]
+}

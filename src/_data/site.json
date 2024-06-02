@@ -1,7 +1,4 @@
 {
-  "logo" : "/assets/logo.png",
-  "home-nav" : "Accueil",
-  "gallery-nav" : "Galerie photos",
-  "services-nav" : "Prestations",
-  "contact-nav" : "Contact"
+  "hero-title" : "Charles Cantin - Photographe",
+  "hero-photo" : "/assets/photos/bebe01.jpg"
 }

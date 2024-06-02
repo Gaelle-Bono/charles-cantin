@@ -1,0 +1,18 @@
+{
+  "category": "baby",
+  "h2-title": "Catégorie Bébé",
+  "photos": [
+    {
+      "path": "/assets/photos/bebe01.jpg"
+    },
+    {
+      "path": "/assets/photos/bebe02.jpg"
+    },
+    {
+      "path": "/assets/photos/bebe03.jpg"
+    },
+    {
+      "path": "/assets/photos/bebe04.jpg"
+    }
+  ]
+}

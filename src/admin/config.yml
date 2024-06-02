@@ -1,8 +1,39 @@
 backend:
   name: git-gateway
-  branch: main # Branch to update (optional; defaults to master)
-media_folder: "assets/photos/uploads"
+  branch: main # Branch to update
+
+media_folder: "src/assets/photos"
+public_folder: "/assets/photos"
+
 collections:
-  - gallery: 'gallery'
-    category: 'portrait'
-    path: 'assets/photos/'
+  - name: "portrait_photos"
+    label: "Photos Portrait"
+    file: "src/_data/photos_portraits.json"
+    widget : list
+    allow_add: true
+    fields:
+      - { label: "Image", name: "path", widget: "image"}
+  - label: "Paramètres de configuration"
+    name: "settings"
+    files:
+      - name: "header"
+        label: "Barre de navigation"
+        file: "src/_data/header.json"
+        fields:
+          - { name: "logo", label: "Logo", widget: "image" }
+          - { name: "home-nav", label: "titre Accueil" }
+          - { name: "gallery-nav", label: "titre Gallerie photos" }
+          - { name: "services-nav", label: "titre Prestations" }
+          - { name: "contact-nav", label: "titre Contact" }
+      - name: "services"
+        label: "Prestations et tarifs"
+        file: "src/_data/services.json"
+        fields:
+          - label: "Prestation"
+            name: services
+            widget : list
+            allow_add: true
+            fields:
+              - { label : "Nom", name: "title", widget: "string" }
+              - { label : "Prix", name: "price", widget: "string" }
+              - { label : "Description", name: "description", widget: "string" }

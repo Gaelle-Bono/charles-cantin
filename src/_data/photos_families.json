@@ -1,0 +1,15 @@
+{
+  "category": "family",
+  "h2-title": "Catégorie Famille",
+  "photos": [
+    {
+      "path": "/assets/photos/famille01.jpg"
+    },
+    {
+      "path": "/assets/photos/famille02.jpg"
+    },
+    {
+      "path": "/assets/photos/famille03.jpg"
+    }
+  ]
+}

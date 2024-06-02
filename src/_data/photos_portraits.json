@@ -1,0 +1,21 @@
+{
+  "h2-title": "Catégorie Portrait",
+  "category": "portrait",
+  "photos": [
+    {
+      "path": "/assets/photos/portrait01.jpg"
+    },
+    {
+      "path": "/assets/photos/portrait02.jpg"
+    },
+    {
+      "path": "/assets/photos/portrait03.jpg"
+    },
+    {
+      "path": "/assets/photos/portrait04.jpg"
+    },
+    {
+      "path": "/assets/photos/portrait05.jpg"
+    }
+  ]
+}
