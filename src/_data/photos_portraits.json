@@ -1,5 +1,19 @@
 {
-  "h2-title": "Photos de portrait",
-  "category": "portrait",
-  "photos": ["/assets/photos/portrait01.jpg","/assets/photos/portrait02.jpg","/assets/photos/portrait03.jpg","/assets/photos/portrait04.jpg","/assets/photos/portrait05.jpg","src/assets/photos/dscn0982.jpg"]
+  "items": [
+    {
+      "path": "/assets/photos/portrait01.jpg"
+    },
+    {
+      "path": "/assets/photos/portrait02.jpg"
+    },
+    {
+      "path": "/assets/photos/portrait03.jpg"
+    },
+    {
+      "path": "/assets/photos/portrait04.jpg"
+    },
+    {
+      "path": "/assets/photos/portrait05.jpg"
+    }
+  ]
 }
