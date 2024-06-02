@@ -9,7 +9,7 @@ collections:
   - name: "photos"
     label: "Photo"
     folder: "src/photos"
-    slug: "{{slug}}"
+    slug : "{{collections.data.url}}"
     create : true
     fields:
       - { label: "Chemin complet", name: "url", widget: "image"}
