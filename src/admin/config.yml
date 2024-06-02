@@ -9,7 +9,23 @@ collections:
   - label: "Paramètres de configuration"
     name: "settings"
     files:
-      - name: "items"
+      - name: "header"
+        label: "Barre de navigation"
+        file: "src/_data/header.json"
+        fields:
+          - { name: "logo", label: "Logo" }
+          - { name: "home-nav", label: "titre Accueil" }
+          - { name: "gallery-nav", label: "titre Gallerie photos" }
+          - { name: "services-nav", label: "titre Prestations" }
+          - { name: "contact-nav", label: "titre Contact" }
+      - name: "photos"
+        label: "Gallerie photos"
+        folder: "src/photos"
+        create: true
+        fields:
+          - { label: "Catégorie", name: "category", widget: "string"}
+          - { label: "Chemin complet", name: "url", widget: "image"}
+      - name: "services"
         label: "Prestations et tarifs"
         file: "src/_data/services.json"
         fields:
@@ -21,30 +37,3 @@ collections:
               - { label : "Nom", name: "title", widget: "string" }
               - { label : "Prix", name: "price", widget: "string" }
               - { label : "Description", name: "description", widget: "string" }
-      - name: "photos"
-        label: "Gallerie Photos"
-        file: "src/_data/photos.json"
-        fields:
-          - label: Catégorie Portraits
-            name: portrait
-            widget : list
-            allow_add: false
-            fields:
-              - { label : "Titre", name: "h2-title", widget: "string" }
-              - { label : "Photos", name: "items", widget: list, allow_add: true, field: {label: "Chemin complet", name: "path", widget: "string"}}
-          - label: Catégorie Couples
-            name: couple
-            widget : list
-            allow_add: false
-            fields:
-              - { label : "Titre", name: "h2-title", widget: "string" }
-              - { label : "Photos", name: "items", widget: list, allow_add: true, field: {label: "Chemin complet", name: "path", widget: "string"}}
-      - name: "header"
-        label: "Barre de navigation"
-        file: "src/_data/header.json"
-        fields:
-          - { name: "logo", label: "Logo" }
-          - { name: "home-nav", label: "titre Accueil" }
-          - { name: "gallery-nav", label: "titre Gallerie photos" }
-          - { name: "services-nav", label: "titre Prestations" }
-          - { name: "contact-nav", label: "titre Contact" }

@@ -1,115 +1,23 @@
 {
   "portrait": {
-    "h2-title": "Catégorie Portrait",
-    "items": [
-      {
-        "path": "/assets/photos/portrait01.jpg"
-      },
-      {
-        "path": "/assets/photos/portrait02.jpg"
-      },
-      {
-        "path": "/assets/photos/portrait03.jpg"
-      },
-      {
-        "path": "/assets/photos/portrait04.jpg"
-      },
-      {
-        "path": "/assets/photos/portrait05.jpg"
-      }
-    ]
+    "h2-title": "Catégorie Portrait"
   },
   "couple": {
-    "h2-title": "Catégorie Couple",
-    "items": [
-      {
-        "path": "/assets/photos/couple01.jpg"
-      },
-      {
-        "path": "/assets/photos/couple02.jpg"
-      },
-      {
-        "path": "/assets/photos/couple03.jpg"
-      }
-    ]
+    "h2-title": "Catégorie Couple"
   },
   "marriage": {
-    "h2-title": "Catégorie Mariage",
-    "items": [
-      {
-        "path": "/assets/photos/mariage01.jpg"
-      },
-      {
-        "path": "/assets/photos/mariage02.jpg"
-      },
-      {
-        "path": "/assets/photos/mariage03.jpg"
-      },
-      {
-        "path": "/assets/photos/mariage04.jpg"
-      },
-      {
-        "path": "/assets/photos/mariage05.jpg"
-      }
-    ]
+    "h2-title": "Catégorie Mariage"
   },
   "pregnancy": {
-    "h2-title": "Catégorie Grossesse",
-    "items": [
-      {
-        "path": "/assets/photos/grossesse01.jpg"
-      },
-      {
-        "path": "/assets/photos/grossesse02.jpg"
-      },
-      {
-        "path": "/assets/photos/grossesse03.jpg"
-      }
-    ]
+    "h2-title": "Catégorie Grossesse"
   },
   "baby": {
-    "h2-title": "Catégorie Bébé",
-    "items": [
-      {
-        "path": "/assets/photos/bebe01.jpg"
-      },
-      {
-        "path": "/assets/photos/bebe02.jpg"
-      },
-      {
-        "path": "/assets/photos/bebe03.jpg"
-      },
-      {
-        "path": "/assets/photos/bebe04.jpg"
-      }
-    ]
+    "h2-title": "Catégorie Bébé"
   },
   "baptism": {
-    "h2-title": "Catégorie Baptême",
-    "items": [
-      {
-        "path": "/assets/photos/bapteme01.jpg"
-      },
-      {
-        "path": "/assets/photos/bapteme02.jpg"
-      },
-      {
-        "path": "/assets/photos/bapteme03.jpg"
-      }
-    ]
+    "h2-title": "Catégorie Baptême"
   },
   "family": {
-    "h2-title": "Catégorie Famille",
-    "items": [
-      {
-        "path": "/assets/photos/famille01.jpg"
-      },
-      {
-        "path": "/assets/photos/famille02.jpg"
-      },
-      {
-        "path": "/assets/photos/famille03.jpg"
-      }
-    ]
+    "h2-title": "Catégorie Famille"
   }
 }
