@@ -1,19 +1,19 @@
 {
   "items": [
     {
-      "image": "/src/assets/photos/mariage01.jpg"
+      "image": "/src/assets/images/mariage01.jpg"
     },
     {
-      "image": "/src/assets/photos/mariage02.jpg"
+      "image": "/src/assets/images/mariage02.jpg"
     },
     {
-      "image": "/src/assets/photos/mariage03.jpg"
+      "image": "/src/assets/images/mariage03.jpg"
     },
     {
-      "image": "/src/assets/photos/mariage04.jpg"
+      "image": "/src/assets/images/mariage04.jpg"
     },
     {
-      "image": "/src/assets/photos/mariage05.jpg"
+      "image": "/src/assets/images/mariage05.jpg"
     }
   ]
 }

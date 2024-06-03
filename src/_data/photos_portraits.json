@@ -1,22 +1,22 @@
 {
   "items": [
     {
-      "image": "/src/assets/photos/portrait01.jpg"
+      "image": "/src/assets/images/portrait01.jpg"
     },
     {
-      "image": "/src/assets/photos/portrait02.jpg"
+      "image": "/src/assets/images/portrait02.jpg"
     },
     {
-      "image": "/src/assets/photos/portrait03.jpg"
+      "image": "/src/assets/images/portrait03.jpg"
     },
     {
-      "image": "/src/assets/photos/portrait04.jpg"
+      "image": "/src/assets/images/portrait04.jpg"
     },
     {
-      "image": "/src/assets/photos/portrait05.jpg"
+      "image": "/src/assets/images/portrait05.jpg"
     },
     {
-      "image": "/src/assets/photos/dscn0982.jpg"
+      "image": "/src/assets/images/dscn0982.jpg"
     }
   ]
 }

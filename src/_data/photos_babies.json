@@ -1,13 +1,13 @@
 {
   "items": [
     {
-      "image": "/src/assets/photos/bebe01.jpg"
+      "image": "/src/assets/images/bebe01.jpg"
     },
     {
-      "image": "/src/assets/photos/bebe02.jpg"
+      "image": "/src/assets/images/bebe02.jpg"
     },
     {
-      "image": "/src/assets/photos/bebe03.jpg"
+      "image": "/src/assets/images/bebe03.jpg"
     }
   ]
 }

@@ -1,13 +1,13 @@
 {
   "items": [
     {
-      "image": "/src/assets/photos/famille01.jpg"
+      "image": "/src/assets/images/famille01.jpg"
     },
     {
-      "image": "/src/assets/photos/famille02.jpg"
+      "image": "/src/assets/images/famille02.jpg"
     },
     {
-      "image": "/src/assets/photos/famille03.jpg"
+      "image": "/src/assets/images/famille03.jpg"
     }
   ]
 }

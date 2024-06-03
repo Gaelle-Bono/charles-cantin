@@ -1,13 +1,13 @@
 {
   "items": [
     {
-      "image": "/src/assets/photos/bapteme01.jpg"
+      "image": "/src/assets/images/bapteme01.jpg"
     },
     {
-      "image": "/src/assets/photos/bapteme02.jpg"
+      "image": "/src/assets/images/bapteme02.jpg"
     },
     {
-      "image": "/src/assets/photos/bapteme03.jpg"
+      "image": "/src/assets/images/bapteme03.jpg"
     }
   ]
 }

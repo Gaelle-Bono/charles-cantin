@@ -1,13 +1,13 @@
 {
   "items": [
     {
-      "image": "/src/assets/photos/grossesse01.jpg"
+      "image": "/src/assets/images/grossesse01.jpg"
     },
     {
-      "image": "/src/assets/photos/grossesse02.jpg"
+      "image": "/src/assets/images/grossesse02.jpg"
     },
     {
-      "image": "/src/assets/photos/grossesse03.jpg"
+      "image": "/src/assets/images/grossesse03.jpg"
     }
   ]
 }
