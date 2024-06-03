@@ -31,44 +31,62 @@ collections:
         label: "Photos Couple"
         file: "src/_data/photos_couples.json"
         fields:
-          - { label: "Catégorie", name: "category", widget: "hidden", value: "couple" }
-          - { label: "Titre Catégorie", name: "h2-title", widget: "string" }
-          - { label: "Photos", name: photos, widget: list, allow_add: true, field: { label: "Image", name: "path", widget: "image" }}
+          - label: "Photos"
+            name: items
+            widget: list
+            allow_add: true
+            fields: 
+              - { label: "Image", name: "image", widget: "image" }
       - name: "marriage_photos"
         label: "Photos Mariage"
         file: "src/_data/photos_marriages.json"
         fields:
-          - { label: "Catégorie", name: "category", widget: "hidden", value: "marriage" }
-          - { label: "Titre Catégorie", name: "h2-title", widget: "string" }
-          - { label: "Photos", name: photos, widget: list, allow_add: true, field: { label: "Image", name: "path", widget: "image" }}
+          - label: "Photos"
+            name: items
+            widget: list
+            allow_add: true
+            fields: 
+              - { label: "Image", name: "image", widget: "image" }
       - name: "pregnancy_photos"
         label: "Photos Grossesse"
         file: "src/_data/photos_pregnancies.json"
         fields:
-          - { label: "Catégorie", name: "category", widget: "hidden", value: "pregnancy" }
-          - { label: "Titre Catégorie", name: "h2-title", widget: "string" }
-          - { label: "Photos", name: photos, widget: list, allow_add: true, field: { label: "Image", name: "path", widget: "image" }}
+          - label: "Photos"
+            name: items
+            widget: list
+            allow_add: true
+            fields: 
+              - { label: "Image", name: "image", widget: "image" }
       - name: "baby_photos"
         label: "Photos Bébé"
         file: "src/_data/photos_babies.json"
         fields:
-          - { label: "Catégorie", name: "category", widget: "hidden", value: "baby" }
-          - { label: "Titre Catégorie", name: "h2-title", widget: "string" }
-          - { label: "Photos", name: photos, widget: list, allow_add: true, field: { label: "Image", name: "path", widget: "image" }}
+          - label: "Photos"
+            name: items
+            widget: list
+            allow_add: true
+            fields: 
+              - { label: "Image", name: "image", widget: "image" }
       - name: "baptism_photos"
         label: "Photos Baptême"
         file: "src/_data/photos_baptismes.json"
         fields:
-          - { label: "Catégorie", name: "category", widget: "hidden", value: "baptism" }
-          - { label: "Titre Catégorie", name: "h2-title", widget: "string" }
-          - { label: "Photos", name: photos, widget: list, allow_add: true, field: { label: "Image", name: "path", widget: "image" }}
+          - label: "Photos"
+            name: items
+            widget: list
+            allow_add: true
+            fields: 
+              - { label: "Image", name: "image", widget: "image" }
       - name: "family_photos"
         label: "Photos Famille"
         file: "src/_data/photos_families.json"
         fields:
-          - { label: "Catégorie", name: "category", widget: "hidden", value: "family" }
-          - { label: "Titre Catégorie", name: "h2-title", widget: "string" }
-          - { label: "Photos", name: photos, widget: list, allow_add: true, field: { label: "Image", name: "path", widget: "image" }}
+          - label: "Photos"
+            name: items
+            widget: list
+            allow_add: true
+            fields: 
+              - { label: "Image", name: "image", widget: "image" }
       - name: "services"
         label: "Prestations et tarifs"
         file: "src/_data/services.json"

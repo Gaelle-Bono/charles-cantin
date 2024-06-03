@@ -1,15 +1,13 @@
 {
-  "category": "pregnancy",
-  "h2-title": "Catégorie Grossesse",
-  "photos": [
+  "items": [
     {
-      "path": "/assets/photos/grossesse01.jpg"
+      "image": "/src/assets/photos/grossesse01.jpg"
     },
     {
-      "path": "/assets/photos/grossesse02.jpg"
+      "image": "/src/assets/photos/grossesse02.jpg"
     },
     {
-      "path": "/assets/photos/grossesse03.jpg"
+      "image": "/src/assets/photos/grossesse03.jpg"
     }
   ]
 }

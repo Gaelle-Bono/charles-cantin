@@ -1,15 +1,13 @@
 {
-  "category": "baby",
-  "h2-title": "Catégorie Bébé",
-  "photos": [
+  "items": [
     {
-      "path": "/assets/photos/bebe01.jpg"
+      "image": "/src/assets/photos/bebe01.jpg"
     },
     {
-      "path": "/assets/photos/bebe02.jpg"
+      "image": "/src/assets/photos/bebe02.jpg"
     },
     {
-      "path": "/assets/photos/bebe03.jpg"
+      "image": "/src/assets/photos/bebe03.jpg"
     }
   ]
 }

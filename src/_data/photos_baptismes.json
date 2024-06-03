@@ -1,15 +1,13 @@
 {
-  "category": "baptism",
-  "h2-title": "Catégorie Baptême",
-  "photos": [
+  "items": [
     {
-      "path": "/assets/photos/bapteme01.jpg"
+      "image": "/src/assets/photos/bapteme01.jpg"
     },
     {
-      "path": "/assets/photos/bapteme02.jpg"
+      "image": "/src/assets/photos/bapteme02.jpg"
     },
     {
-      "path": "/assets/photos/bapteme03.jpg"
+      "image": "/src/assets/photos/bapteme03.jpg"
     }
   ]
 }

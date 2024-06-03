@@ -1,21 +1,19 @@
 {
-  "category": "marriage",
-  "h2-title": "Catégorie Mariage",
-  "photos": [
+  "items": [
     {
-      "path": "/assets/photos/mariage01.jpg"
+      "image": "/src/assets/photos/mariage01.jpg"
     },
     {
-      "path": "/assets/photos/mariage02.jpg"
+      "image": "/src/assets/photos/mariage02.jpg"
     },
     {
-      "path": "/assets/photos/mariage03.jpg"
+      "image": "/src/assets/photos/mariage03.jpg"
     },
     {
-      "path": "/assets/photos/mariage04.jpg"
+      "image": "/src/assets/photos/mariage04.jpg"
     },
     {
-      "path": "/assets/photos/mariage05.jpg"
+      "image": "/src/assets/photos/mariage05.jpg"
     }
   ]
 }

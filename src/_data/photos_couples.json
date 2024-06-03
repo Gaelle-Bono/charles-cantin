@@ -1,15 +1,13 @@
 {
-  "category": "couple",
-  "h2-title": "Catégorie Couple",
-  "photos": [
+  "items": [
     {
-      "path": "/assets/photos/couple01.jpg"
+      "image": "/src/assets/photos/couple01.jpg"
     },
     {
-      "path": "/assets/photos/couple02.jpg"
+      "image": "/src/assets/photos/couple02.jpg"
     },
     {
-      "path": "/assets/photos/couple03.jpg"
+      "image": "/src/assets/photos/couple03.jpg"
     }
   ]
 }
