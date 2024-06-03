@@ -26,8 +26,7 @@ collections:
             widget: list
             allow_add: true
             fields: 
-              - { label: "Nom photo", name: "name", widget: "string" }
-              - { label: category, name: category, widget: "hidden" }
+              - { label: "Nom photo", name: "name", widget: "image" }
       - name: "couple_photos"
         label: "Photos Couple"
         file: "src/_data/photos_couples.json"
