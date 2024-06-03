@@ -1,28 +1,28 @@
 {
   "items": [
     {
-      "name": "portrait01.jpg"
+      "image": "portrait01.jpg"
     },
     {
-      "name": "portrait02.jpg"
+      "image": "portrait02.jpg"
     },
     {
-      "name": "portrait03.jpg"
+      "image": "portrait03.jpg"
     },
     {
-      "name": "portrait04.jpg"
+      "image": "portrait04.jpg"
     },
     {
-      "name": "portrait05.jpg"
+      "image": "portrait05.jpg"
     },
     {
-      "name": "dscn0982.jpg"
+      "image": "dscn0982.jpg"
     },
     {
-      "name": "grossesse02.jpg"
+      "image": "grossesse02.jpg"
     },
     {
-      "name": "/src/assets/photos/dscn0982.jpg"
+      "image": "/src/assets/photos/dscn0982.jpg"
     }
   ]
 }
