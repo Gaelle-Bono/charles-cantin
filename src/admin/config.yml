@@ -7,20 +7,20 @@ media_folder: "src/assets/images"
 collections:
   - name: "header"
     label: "Header"
-    # files:
-    #   - name: "header"
-    #     label: "Barre de navigation"
-    files: "src/_data/header.json"
-    fields:
-      - { name: "logo", label: "Logo", widget: "image" }
-      - { name: "home-nav", label: "titre Accueil" }
-      - { name: "gallery-nav", label: "titre Galerie photos" }
-      - { name: "services-nav", label: "titre Prestations" }
-      - { name: "contact-nav", label: "titre Contact" }
-      - { name: "facebook-logo", label: "Logo Facebook", widget: "image" }
-      - { name: "facebook-page", label: "Page Facebook", widget: "string" }
-      - { name: "instagram-logo", label: "Logo Instagram", widget: "image" }
-      - { name: "instagram-page", label: "Page Instagram", widget: "string" }
+    files:
+      - name: "header"
+        label: "Barre de navigation"
+        file: "src/_data/header.json"
+        fields:
+          - { name: "logo", label: "Logo", widget: "image" }
+          - { name: "home-nav", label: "titre Accueil" }
+          - { name: "gallery-nav", label: "titre Galerie photos" }
+          - { name: "services-nav", label: "titre Prestations" }
+          - { name: "contact-nav", label: "titre Contact" }
+          - { name: "facebook-logo", label: "Logo Facebook", widget: "image" }
+          - { name: "facebook-page", label: "Page Facebook", widget: "string" }
+          - { name: "instagram-logo", label: "Logo Instagram", widget: "image" }
+          - { name: "instagram-page", label: "Page Instagram", widget: "string" }
   - name: "photos-gallery"
     label: "Galeries de photos"
     description: "Pour chaque galerie, vous allez pouvoir visualiser les photos de la galerie, ajouter des photos ou en supprimer"
