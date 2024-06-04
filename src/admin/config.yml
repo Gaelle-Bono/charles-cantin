@@ -92,13 +92,16 @@ collections:
               - { label: "Image", name: "image", widget: "image" }
   - name: "services"
     label: "Prestations et tarifs"
-    file: "src/_data/services.json"
-    fields:
-      - label: "Prestations"
-        name: items
-        widget: list
-        allow_add: true
+    files:
+      - name: "services"
+        label: "Prestations"
+        file: "src/_data/services.json"
         fields:
-          - { label : "Nom", name: "title", widget: "string" }
-          - { label : "Prix", name: "price", widget: "string" }
-          - { label : "Description", name: "description", widget: "string" }
+          - label: "Prestations"
+            name: items
+            widget: list
+            allow_add: true
+            fields:
+              - { label : "Nom", name: "title", widget: "string" }
+              - { label : "Prix", name: "price", widget: "string" }
+              - { label : "Description", name: "description", widget: "string" }
