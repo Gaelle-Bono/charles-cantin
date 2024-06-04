@@ -1,7 +1,7 @@
 {
-  "logo": "/src/assets/images/mariage04.jpg",
+  "logo": "/src/assets/images/logo.png",
   "home-nav": "Accueil",
   "gallery-nav": "Photos",
-  "services-nav": "Prestations",
+  "services-nav": "Prestations et Tarifs",
   "contact-nav": "Contact"
 }
