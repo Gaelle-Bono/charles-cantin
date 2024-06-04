@@ -1,13 +1,11 @@
 {
-  "logo": "/src/assets/images/logo.png",
-  "home-nav": "Accueil",
-  "gallery-nav": "Photos",
-  "services-nav": "Prestations",
-  "contact-nav": "Contact",
-
-  "facebook-page": "https://facebook.com/",
-  "facebook-logo": "/src/assets/images/facebook.svg",
-
+  "instagram-logo": "/src/assets/images/instagram.svg",
+  "gallery-nav": "Galerie photos",
   "instagram-page": "https://www.instagram.com/",
-  "instagram-logo": "/src/assets/images/instagram.svg"
+  "logo": "/src/assets/images/logo.png",
+  "facebook-logo": "/src/assets/images/facebook.svg",
+  "services-nav": "Prestations",
+  "home-nav": "Accueil",
+  "facebook-page": "https://facebook.com/",
+  "contact-nav": "Contact"
 }
