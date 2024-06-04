@@ -14,7 +14,7 @@ collections:
         fields:
           - { name: "logo", label: "Logo", widget: "image" }
           - { name: "home-nav", label: "titre Accueil" }
-          - { name: "gallery-nav", label: "titre Gallerie photos" }
+          - { name: "gallery-nav", label: "titre Galerie photos" }
           - { name: "services-nav", label: "titre Prestations" }
           - { name: "contact-nav", label: "titre Contact" }
           - { name: "facebook-logo", label: "Logo Facebook", widget: "image" }
@@ -22,11 +22,11 @@ collections:
           - { name: "instagram-logo", label: "Logo Instagram", widget: "image" }
           - { name: "instagram-page", label: "Page Instagram", widget: "string" }
   - name: "photos-gallery"
-    label: "Galleries de photos"
-    description: "Pour chaque gallerie, vous allez pouvoir visualiser les photos de la gallerie, ajouter des photos ou en supprimer"
+    label: "Galeries de photos"
+    description: "Pour chaque galerie, vous allez pouvoir visualiser les photos de la galerie, ajouter des photos ou en supprimer"
     files: 
       - name: "portrait_photos"
-        label: "Gallerie Portrait"
+        label: "Galerie Portrait"
         file: "src/_data/photos_portraits.json"
         fields:
           - label: "Photos"
@@ -36,7 +36,7 @@ collections:
             fields: 
               - { label: "Photo", name: "image", widget: "image" }
       - name: "couple_photos"
-        label: "Gallerie Couple"
+        label: "Galerie Couple"
         file: "src/_data/photos_couples.json"
         fields:
           - label: "Photos"
@@ -46,7 +46,7 @@ collections:
             fields: 
               - { label: "Photo", name: "image", widget: "image" }
       - name: "marriage_photos"
-        label: "Gallerie Mariage"
+        label: "Galerie Mariage"
         file: "src/_data/photos_marriages.json"
         fields:
           - label: "Photos"
@@ -56,7 +56,7 @@ collections:
             fields: 
               - { label: "Photo", name: "image", widget: "image" }
       - name: "pregnancy_photos"
-        label: "Gallerie Grossesse"
+        label: "Galerie Grossesse"
         file: "src/_data/photos_pregnancies.json"
         fields:
           - label: "Photos"
@@ -66,7 +66,7 @@ collections:
             fields: 
               - { label: "Photo", name: "image", widget: "image" }
       - name: "baby_photos"
-        label: "Gallerie Bébé"
+        label: "Galerie Bébé"
         file: "src/_data/photos_babies.json"
         fields:
           - label: "Photos"
@@ -76,7 +76,7 @@ collections:
             fields: 
               - { label: "Photo", name: "image", widget: "image" }
       - name: "baptism_photos"
-        label: "Gallerie Baptême"
+        label: "Galerie Baptême"
         file: "src/_data/photos_baptismes.json"
         fields:
           - label: "Photos"
@@ -86,7 +86,7 @@ collections:
             fields: 
               - { label: "Photo", name: "image", widget: "image" }
       - name: "family_photos"
-        label: "Gallerie Famille"
+        label: "Galerie Famille"
         file: "src/_data/photos_families.json"
         fields:
           - label: "Photos"
