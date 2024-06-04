@@ -10,7 +10,7 @@ collections:
     # files:
     #   - name: "header"
     #     label: "Barre de navigation"
-    file: "src/_data/header.json"
+    files: "src/_data/header.json"
     fields:
       - { name: "logo", label: "Logo", widget: "image" }
       - { name: "home-nav", label: "titre Accueil" }
