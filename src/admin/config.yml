@@ -6,7 +6,7 @@ media_folder: "src/assets/images"
 
 collections:
   - name: "settings"
-    label: "Paramètres de configuration"
+    label: "Paramètres généraux du site"
     files:
       - name: "header"
         label: "Barre de navigation"
@@ -17,8 +17,11 @@ collections:
           - { name: "gallery-nav", label: "titre Gallerie photos" }
           - { name: "services-nav", label: "titre Prestations" }
           - { name: "contact-nav", label: "titre Contact" }
+  - name: "photos-gallery"
+    label: "Galleries de photos"
+    files: 
       - name: "portrait_photos"
-        label: "Photos Portrait"
+        label: "Gallerie Portrait"
         file: "src/_data/photos_portraits.json"
         fields:
           - label: "Photos"
@@ -28,7 +31,7 @@ collections:
             fields: 
               - { label: "Image", name: "image", widget: "image" }
       - name: "couple_photos"
-        label: "Photos Couple"
+        label: "Gallerie Couple"
         file: "src/_data/photos_couples.json"
         fields:
           - label: "Photos"
@@ -38,7 +41,7 @@ collections:
             fields: 
               - { label: "Image", name: "image", widget: "image" }
       - name: "marriage_photos"
-        label: "Photos Mariage"
+        label: "Gallerie Mariage"
         file: "src/_data/photos_marriages.json"
         fields:
           - label: "Photos"
@@ -48,7 +51,7 @@ collections:
             fields: 
               - { label: "Image", name: "image", widget: "image" }
       - name: "pregnancy_photos"
-        label: "Photos Grossesse"
+        label: "Gallerie Grossesse"
         file: "src/_data/photos_pregnancies.json"
         fields:
           - label: "Photos"
@@ -58,7 +61,7 @@ collections:
             fields: 
               - { label: "Image", name: "image", widget: "image" }
       - name: "baby_photos"
-        label: "Photos Bébé"
+        label: "Gallerie Bébé"
         file: "src/_data/photos_babies.json"
         fields:
           - label: "Photos"
@@ -68,7 +71,7 @@ collections:
             fields: 
               - { label: "Image", name: "image", widget: "image" }
       - name: "baptism_photos"
-        label: "Photos Baptême"
+        label: "Gallerie Baptême"
         file: "src/_data/photos_baptismes.json"
         fields:
           - label: "Photos"
@@ -78,7 +81,7 @@ collections:
             fields: 
               - { label: "Image", name: "image", widget: "image" }
       - name: "family_photos"
-        label: "Photos Famille"
+        label: "Gallerie Famille"
         file: "src/_data/photos_families.json"
         fields:
           - label: "Photos"
@@ -87,15 +90,15 @@ collections:
             allow_add: true
             fields: 
               - { label: "Image", name: "image", widget: "image" }
-      - name: "services"
-        label: "Prestations et tarifs"
-        file: "src/_data/services.json"
+  - name: "services"
+    label: "Prestations et tarifs"
+    file: "src/_data/services.json"
+    fields:
+      - label: "Prestations"
+        name: items
+        widget: list
+        allow_add: true
         fields:
-          - label: "Prestations"
-            name: items
-            widget: list
-            allow_add: true
-            fields:
-              - { label : "Nom", name: "title", widget: "string" }
-              - { label : "Prix", name: "price", widget: "string" }
-              - { label : "Description", name: "description", widget: "string" }
+          - { label : "Nom", name: "title", widget: "string" }
+          - { label : "Prix", name: "price", widget: "string" }
+          - { label : "Description", name: "description", widget: "string" }
