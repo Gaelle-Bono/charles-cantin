@@ -97,10 +97,10 @@ collections:
               - { label: "Photo", name: "image", widget: "image" }
   - name: "services"
     label: "Prestations et tarifs"
-    description: "Vous pouvez mettre à jour les prestations et tarifs." 
+    description: "Vous pouvez mettre à jour les prestations et tarifs, en créer, en modifier ou en supprimer." 
     files:
       - name: "services"
-        label: "Prestations et tarifs"
+        label: "Liste des prestations"
         file: "src/_data/services.json"
         fields:
           - label: "Prestations"
@@ -125,9 +125,9 @@ collections:
         file: "src/_data/page_gallery.json"
         fields: 
           - { label : "Titre Page h1", name: "page-title", widget: "string" }
-          - { label : "Phrase 1", name: "sentence1", widget: "string" }
-          - { label : "Phrase 2", name: "sentence2", widget: "string" }
-          - { label : "Phrase 3", name: "sentence3", widget: "string" }
+          - { label : "Phrase 1", name: "sentence1", widget: "string", required: false }
+          - { label : "Phrase 2", name: "sentence2", widget: "string", required: false }
+          - { label : "Phrase 3", name: "sentence3", widget: "string", required: false }
           - { label : "Texte du menu déroulant", name: "dropdown-text", widget: "string" }
 
           - { label : "Titre h2 Portrait", name: "portrait-title", widget: "string" }
