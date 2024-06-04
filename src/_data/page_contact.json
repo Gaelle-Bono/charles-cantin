@@ -1,0 +1,13 @@
+{
+  "page-title": "Contact",
+
+  "firstname-label": "Nom :",
+  "firstname-error": "Le nom est requis",
+  "lastname-label": "Prénom :",
+  "lastname-error": "Le prénom est requis",
+  "email-label": "Mail :",
+  "email-error": "Le mail n'est pas au bon format",
+  "msg-label": "Message :",
+  "msg-error": "Le message est requis",
+  "button-text": "Envoyer"
+}

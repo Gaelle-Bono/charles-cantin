@@ -2,7 +2,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="/">
-        <img class="logo" src="{{ header.logo | formatPath }}" alt="logo" width="175">
+        <img class="logo" src="{{ header.logo | formatPath }}" alt="{{ header.logo | removeExt }}" width="175">
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -23,8 +23,8 @@
           </li>
         </ul>
         <div class= "ms-5">
-          <a class="ms-3" target="_blank" href="https://facebook.com/"><img src="/assets/images/facebook.svg" alt="logo de facebook"></a>
-          <a class="ms-3" target="_blank" href="https://www.instagram.com/"><img src="/assets/images/instagram.svg" alt="logo d'instagram"></a>
+          <a class="ms-3" target="_blank" href="{{ header.facebook-page }}"><img src="{{ header.facebook-logo }}" alt="{{ header.facebook-logo | removeExt}}"></a>
+          <a class="ms-3" target="_blank" href="{{ header.instagram-page }}"><img src="{{ header.instagram-logo }}" alt="{{ header.instagram-logo | removeExt}}"></a>
         </div>
       </div>
     </div>

@@ -1,0 +1,16 @@
+{
+  "page-title": "Galerie de photos",
+  
+  "sentence1": "Je vous présente une sélection de mes photos préférées. J'éternise les plus beaux moments de votre vie.",
+  "sentence2": "Ces moments sont classés dans les catégories suivantes : Mariage - Grossesse - Bébé - Famille - Baptême - Couple - Portrait.",
+  "sentence3": "Vous pouvez, si vous le souhaitez, visualiser les photos d'une catégorie en particulier grâce à la liste déroulante ci-après.",
+  "dropdown-text": "Choisissez une catégorie",
+
+  "portrait-title": "Catégorie Portrait",
+  "couple-title": "Catégorie Couple",
+  "marriage-title": "Catégorie Mariage",
+  "pregnancy-title": "Catégorie Grossesse",
+  "baby-title": "Catégorie Bébé",
+  "baptism-title": "Catégorie Baptême",
+  "family-title": "Catégorie Famille"
+}

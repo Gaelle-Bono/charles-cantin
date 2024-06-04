@@ -3,5 +3,11 @@
   "home-nav": "Accueil",
   "gallery-nav": "Photos",
   "services-nav": "Prestations",
-  "contact-nav": "Contact"
+  "contact-nav": "Contact",
+
+  "facebook-page": "https://facebook.com/",
+  "facebook-logo": "/src/assets/images/facebook.svg",
+
+  "instagram-page": "https://www.instagram.com/",
+  "instagram-logo": "/src/assets/images/instagram.svg"
 }

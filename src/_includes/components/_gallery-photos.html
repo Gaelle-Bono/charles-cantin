@@ -3,9 +3,9 @@
 
   <!-- portrait -->
   <div class="p-4 category visible" data-category="portrait">
-    <h2 class="p-4 h2-title">{{ photos.portrait-title }}</h2>
-    <div class="row">
+    <h2 class="p-4 h2-title">{{ page_gallery.portrait-title }}</h2>
       {% for item in photos_portraits.items %}
+    <div class="row">
         <!-- show the photos -->
         <div class="col-12 col-sm-4 col-lg-3 pb-4">
           <img class="image" src="{{ item.image | formatPath }}" alt="{{ item.image | removeExt }}">
@@ -16,7 +16,7 @@
 
   <!-- couple -->
   <div class="p-4 category visible" data-category="couple">
-    <h2 class="p-4 h2-title">{{ photos.couple-title }}</h2>
+    <h2 class="p-4 h2-title">{{ page_gallery.couple-title }}</h2>
     <div class="row">
       {% for item in photos_couples.items %}
         <!-- show the photos -->
@@ -29,7 +29,7 @@
 
   <!-- marriage -->
   <div class="p-4 category visible" data-category="marriage">
-    <h2 class="p-4 h2-title">{{ photos.marriage-title }}</h2>
+    <h2 class="p-4 h2-title">{{ page_gallery.marriage-title }}</h2>
     <div class="row">
       {% for item in photos_marriages.items %}
         <!-- show the photos -->
@@ -42,7 +42,7 @@
 
   <!-- pregnancy -->
   <div class="p-4 category visible" data-category="pregnancy">
-    <h2 class="p-4 h2-title">{{ photos.pregnancy-title }}</h2>
+    <h2 class="p-4 h2-title">{{ page_gallery.pregnancy-title }}</h2>
     <div class="row">
       {% for item in photos_pregnancies.items %}
         <!-- show the photos -->
@@ -55,7 +55,7 @@
 
   <!-- baby -->
   <div class="p-4 category visible" data-category="baby">
-    <h2 class="p-4 h2-title">{{ photos.baby-title }}</h2>
+    <h2 class="p-4 h2-title">{{ page_gallery.baby-title }}</h2>
     <div class="row">
       {% for item in photos_babies.items %}
         <!-- show the photos -->
@@ -68,7 +68,7 @@
 
  <!-- baptism -->
   <div class="p-4 category visible" data-category="baptism">
-    <h2 class="p-4 h2-title">{{ photos.baptism-title }}</h2>
+    <h2 class="p-4 h2-title">{{ page_gallery.baptism-title }}</h2>
     <div class="row">
       {% for item in photos_baptismes.items %}
         <!-- show the photos -->
@@ -81,7 +81,7 @@
 
  <!-- family -->
   <div class="p-4 category visible" data-category="family">
-    <h2 class="p-4 h2-title">{{ photos.family-title }}</h2>
+    <h2 class="p-4 h2-title">{{ page_gallery.family-title }}</h2>
     <div class="row">
       {% for item in photos_families.items %}
         <!-- show the photos -->

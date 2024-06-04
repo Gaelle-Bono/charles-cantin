@@ -17,6 +17,10 @@ collections:
           - { name: "gallery-nav", label: "titre Gallerie photos" }
           - { name: "services-nav", label: "titre Prestations" }
           - { name: "contact-nav", label: "titre Contact" }
+          - { name: "facebook-logo", label: "Logo Facebook", widget: "image" }
+          - { name: "facebook-page", label: "Page Facebook", widget: "string" }
+          - { name: "instagram-logo", label: "Logo Instagram", widget: "image" }
+          - { name: "instagram-page", label: "Page Instagram", widget: "string" }
   - name: "photos-gallery"
     label: "Galleries de photos"
     description: "Pour chaque gallerie, vous allez pouvoir visualiser les photos de la gallerie, ajouter des photos ou en supprimer"
@@ -93,10 +97,10 @@ collections:
               - { label: "Photo", name: "image", widget: "image" }
   - name: "services"
     label: "Prestations et tarifs"
+    description: "Vous pouvez mettre à jour les prestations et tarifs." 
     files:
       - name: "services"
         label: "Prestations et tarifs"
-        description: "Vous pouvez mettre à jour les prestations et tarifs." 
         file: "src/_data/services.json"
         fields:
           - label: "Prestations"
@@ -112,7 +116,46 @@ collections:
     files:
       - name: "home-page"
         label: "Page d'accueil"
-        file: "src/_data/home.json"
+        file: "src/_data/page_home.json"
         fields: 
           - { label : "Titre", name: "hero-title", widget: "string" }
           - { label : "Photo", name: "hero-photo", widget: "image" }
+      - name: "gallery-page"
+        label: "Page Galerie Photos"
+        file: "src/_data/page_gallery.json"
+        fields: 
+          - { label : "Titre Page h1", name: "page-title", widget: "string" }
+          - { label : "Phrase 1", name: "sentence1", widget: "string" }
+          - { label : "Phrase 2", name: "sentence2", widget: "string" }
+          - { label : "Phrase 3", name: "sentence3", widget: "string" }
+          - { label : "Texte du menu déroulant", name: "dropdown-text", widget: "string" }
+
+          - { label : "Titre h2 Portrait", name: "portrait-title", widget: "string" }
+          - { label : "Titre h2 Couple", name: "couple-title", widget: "string" }
+          - { label : "Titre h2 Mariage", name: "marriage-title", widget: "string" }
+          - { label : "Titre h2 Grossesse", name: "pregnancy-title", widget: "string" }
+          - { label : "Titre h2 Bébé", name: "baby-title", widget: "string" }
+          - { label : "Titre h2 Baptême", name: "baptism-title", widget: "string" }
+          - { label : "Titre h2 Famille", name: "family-title", widget: "string" }
+      - name: "services-page"
+        label: "Page Prestations"
+        file: "src/_data/page_services.json"
+        fields: 
+          - { label : "Titre Page h1", name: "page-title", widget: "string" }
+      - name: "contact-page"
+        label: "Page Contact"
+        file: "src/_data/page_contact.json"
+        fields: 
+          - { label : "Titre Page h1", name: "page-title", widget: "string" }
+
+          - { label : "Etiquette Nom", name: "firstname-label", widget: "string" }
+          - { label : "Etiquette Prénom", name: "lastname-label", widget: "string" }
+          - { label : "Etiquette Mail", name: "email-label", widget: "string" }
+          - { label : "Etiquette Message", name: "msg-label", widget: "string" }
+
+          - { label : "Message d'erreur Nom", name: "firstname-error", widget: "string" }
+          - { label : "Message d'erreur Prénom", name: "lastname-error", widget: "string" }
+          - { label : "Message d'erreur Email", name: "email-error", widget: "string" }
+          - { label : "Message d'erreur Message", name: "msg-error", widget: "string" }
+
+          - { label : "Texte du bouton", name: "button-text", widget: "string" }

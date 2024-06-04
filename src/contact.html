@@ -1,53 +1,48 @@
 ---
 title: Contact
-firstname-label: 'Nom :'
-lastname-label: 'Prénom :'
-email-label: 'Mail :'
-msg-label: 'Message :'
-button-text: Envoyer
 layout: layout/base.html
 ---
 
 <div class="container-fluid">
   <h1 class="text-center p-5 h1-title">
-      Contact
+      {{ page_contact.page-title}}
   </h1>
 
   <div class="blue-container p-5 contact-container">
     
     <form name="contact" method="POST" id="contact-form" novalidate netlify>
       <div class="mb-3">
-        <label for="firstname" class="form-label">{{firstname-label}}</label>
+        <label for="firstname" class="form-label">{{page_contact.firstname-label}}</label>
         <input type="text" class="form-control" id="firstname" name="firstname" required />
         <div class="invalid-feedback">
-          Le nom est requis
+          {{page_contact.firstname-error}}
         </div>
       </div>
 
       <div class="mb-3">
-        <label for="lastname" class="form-label">{{lastname-label}}</label>
+        <label for="lastname" class="form-label">{{page_contact.lastname-label}}</label>
         <input type="text" class="form-control" id="lastname" name="lastname" required />
         <div class="invalid-feedback">
-          Le prénom est requis
+          {{page_contact.lastname-error}}
         </div>
       </div>
 
       <div class="mb-3">
-        <label for="email" class="form-label">{{email-label}}</label>
+        <label for="email" class="form-label">{{page_contact.email-label}}</label>
         <input type="email" class="form-control" id="email" name="email" required />
         <div class="invalid-feedback">
-          Le mail n'est pas au bon format
+          {{page_contact.email-error}}
         </div>
       </div>
 
       <div class="mb-5">
-        <label for="msg" class="form-label">{{msg-label}}</label>
+        <label for="msg" class="form-label">{{page_contact.msg-label}}</label>
         <textarea id="msg" class="form-control" name="message" rows="5" required></textarea>
         <div class="invalid-feedback">
-          Le message est requis
+          {{page_contact.msg-error}}
         </div>
       </div>
-      <button type="submit" id="send" class="m-auto">{{button-text}}</button>
+      <button type="submit" id="send" class="m-auto">{{page_contact.button-text}}</button>
     </form>
   </div>
 </div> 

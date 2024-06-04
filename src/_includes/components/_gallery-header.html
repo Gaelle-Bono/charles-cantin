@@ -1,21 +1,21 @@
 <div class="container-fluid gallery-header">
   <h1 class="text-center p-5 h1-title">
-      Galerie de photos
+      {{ page_gallery.page-title }}
   </h1>
   <div class="blue-container p-5 gallerys-presentation"> 
     <p>
-      Je vous présente une sélection de mes photos préférées. J'éternise les plus beaux moments de votre vie. 
+      {{ page_gallery.sentence1 }}
     </p> 
     <p>
-        Ces moments sont classés dans les catégories suivantes : <br /> Mariage - Grossesse - Bébé - Famille - Baptême - Couple - Portrait
+      {{ page_gallery.sentence2 }}
     </p>
     <p>
-        Vous pouvez, si vous le souhaitez, visualiser les photos d'une catégorie en particulier grâce à la liste déroulante ci-après.
+     {{ page_gallery.sentence3 }}
     </p>  
     
     <div class="dropdown mt-5 text-center">
       <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-        {{ dropdown-text }}
+        {{ page_gallery.dropdown-text }}
       </button>
       <ul class="dropdown-menu">
         <li><button class="dropdown-item text-center" type="button">Toutes les catégories</button></li>
