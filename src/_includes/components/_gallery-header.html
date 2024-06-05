@@ -3,15 +3,17 @@
       {{ page_gallery.page-title }}
   </h1>
   <div class="blue-container p-5 gallerys-presentation"> 
-    <p>
-      {{ page_gallery.sentence1 }}
-    </p> 
-    <p>
-      {{ page_gallery.sentence2 }}
-    </p>
-    <p>
-     {{ page_gallery.sentence3 }}
-    </p>  
+    {% if page_gallery.sentence1 != "" %}
+      <p>{{ page_gallery.sentence1 }}</p> 
+    {% endif %}
+
+    {% if page_gallery.sentence2 != "" %}
+      <p>{{ page_gallery.sentence2 }}</p>
+    {% endif %}
+
+    {% if page_gallery.sentence3 != "" %}
+      <p>{{ page_gallery.sentence3 }}</p> 
+    {% endif %}
     
     <div class="dropdown mt-5 text-center">
       <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">

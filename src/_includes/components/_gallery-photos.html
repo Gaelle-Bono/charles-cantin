@@ -2,7 +2,7 @@
   
 
   <!-- portrait -->
-  {% if photos_portraits.items.length %}
+  {% if photos_portraits.items.length != 0 %}
     <div class="p-4 category visible" data-category="portrait">
       <h2 class="p-4 h2-title">{{ page_gallery.portrait-title }}</h2>
       <div class="row">
@@ -17,7 +17,7 @@
   {% endif %}
 
   <!-- couple -->
-  {% if photos_couples.items.length %}
+  {% if photos_couples.items.length != 0 %}
     <div class="p-4 category visible" data-category="couple">
       <h2 class="p-4 h2-title">{{ page_gallery.couple-title }}</h2>
       <div class="row">
@@ -32,68 +32,78 @@
   {% endif %}
 
   <!-- marriage -->
-  <div class="p-4 category visible" data-category="marriage">
-    <h2 class="p-4 h2-title">{{ page_gallery.marriage-title }}</h2>
-    <div class="row">
-      {% for item in photos_marriages.items %}
-        <!-- show the photos -->
-        <div class="col-12 col-sm-4 col-lg-3 pb-4">
-          <img class="image" src="{{ item.image | formatPath }}" alt="{{ item.image | removeExt }}">
-        </div>
-      {% endfor %}
+  {% if photos_marriages.items.length != 0 %}
+    <div class="p-4 category visible" data-category="marriage">
+      <h2 class="p-4 h2-title">{{ page_gallery.marriage-title }}</h2>
+      <div class="row">
+        {% for item in photos_marriages.items %}
+          <!-- show the photos -->
+          <div class="col-12 col-sm-4 col-lg-3 pb-4">
+            <img class="image" src="{{ item.image | formatPath }}" alt="{{ item.image | removeExt }}">
+          </div>
+        {% endfor %}
+      </div>
     </div>
-  </div>
+  {% endif %}
 
   <!-- pregnancy -->
-  <div class="p-4 category visible" data-category="pregnancy">
-    <h2 class="p-4 h2-title">{{ page_gallery.pregnancy-title }}</h2>
-    <div class="row">
-      {% for item in photos_pregnancies.items %}
-        <!-- show the photos -->
-        <div class="col-12 col-sm-4 col-lg-3 pb-4">
-          <img class="image" src="{{ item.image | formatPath }}" alt="{{ item.image | removeExt }}">
-        </div>
-      {% endfor %}
+  {% if photos_pregnancies.items.length != 0 %}
+    <div class="p-4 category visible" data-category="pregnancy">
+      <h2 class="p-4 h2-title">{{ page_gallery.pregnancy-title }}</h2>
+      <div class="row">
+        {% for item in photos_pregnancies.items %}
+          <!-- show the photos -->
+          <div class="col-12 col-sm-4 col-lg-3 pb-4">
+            <img class="image" src="{{ item.image | formatPath }}" alt="{{ item.image | removeExt }}">
+          </div>
+        {% endfor %}
+      </div>
     </div>
-  </div>
+  {% endif %}
 
   <!-- baby -->
-  <div class="p-4 category visible" data-category="baby">
-    <h2 class="p-4 h2-title">{{ page_gallery.baby-title }}</h2>
-    <div class="row">
-      {% for item in photos_babies.items %}
-        <!-- show the photos -->
-        <div class="col-12 col-sm-4 col-lg-3 pb-4">
-          <img class="image" src="{{ item.image | formatPath }}" alt="{{ item.image | removeExt }}">
-        </div>
-      {% endfor %}
+  {% if photos_babies.items.length != 0 %}
+    <div class="p-4 category visible" data-category="baby">
+      <h2 class="p-4 h2-title">{{ page_gallery.baby-title }}</h2>
+      <div class="row">
+        {% for item in photos_babies.items %}
+          <!-- show the photos -->
+          <div class="col-12 col-sm-4 col-lg-3 pb-4">
+            <img class="image" src="{{ item.image | formatPath }}" alt="{{ item.image | removeExt }}">
+          </div>
+        {% endfor %}
+      </div>
     </div>
-  </div>
+  {% endif %}
 
  <!-- baptism -->
-  <div class="p-4 category visible" data-category="baptism">
-    <h2 class="p-4 h2-title">{{ page_gallery.baptism-title }}</h2>
-    <div class="row">
-      {% for item in photos_baptismes.items %}
-        <!-- show the photos -->
-        <div class="col-12 col-sm-4 col-lg-3 pb-4">
-          <img class="image" src="{{ item.image | formatPath }}" alt="{{ item.image | removeExt }}">
-        </div>
-      {% endfor %}
+  {% if photos_baptismes.items.length != 0 %}
+    <div class="p-4 category visible" data-category="baptism">
+      <h2 class="p-4 h2-title">{{ page_gallery.baptism-title }}</h2>
+      <div class="row">
+        {% for item in photos_baptismes.items %}
+          <!-- show the photos -->
+          <div class="col-12 col-sm-4 col-lg-3 pb-4">
+            <img class="image" src="{{ item.image | formatPath }}" alt="{{ item.image | removeExt }}">
+          </div>
+        {% endfor %}
+      </div>
     </div>
-  </div>
+  {% endif %}  
 
- <!-- family -->
-  <div class="p-4 category visible" data-category="family">
-    <h2 class="p-4 h2-title">{{ page_gallery.family-title }}</h2>
-    <div class="row">
-      {% for item in photos_families.items %}
-        <!-- show the photos -->
-        <div class="col-12 col-sm-4 col-lg-3 pb-4">
-          <img class="image" src="{{ item.image | formatPath }}" alt="{{ item.image | removeExt }}">
-        </div>
-      {% endfor %}
+  <!-- family -->
+  {% if photos_families.items.length != 0 %}
+    <div class="p-4 category visible" data-category="family">
+      <h2 class="p-4 h2-title">{{ page_gallery.family-title }}</h2>
+      <div class="row">
+        {% for item in photos_families.items %}
+          <!-- show the photos -->
+          <div class="col-12 col-sm-4 col-lg-3 pb-4">
+            <img class="image" src="{{ item.image | formatPath }}" alt="{{ item.image | removeExt }}">
+          </div>
+        {% endfor %}
+      </div>
     </div>
-  </div>
+  {% endif %}  
 
 </div>
