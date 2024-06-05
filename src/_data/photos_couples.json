@@ -1,3 +1,13 @@
 {
-  "items": []
+  "items": [
+    {
+      "image": "/src/assets/images/couple01.jpg"
+    },
+    {
+      "image": "/src/assets/images/couple02.jpg"
+    },
+    {
+      "image": "/src/assets/images/couple03.jpg"
+    }
+  ]
 }
