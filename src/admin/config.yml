@@ -36,7 +36,7 @@ collections:
 
   - name: "gallery-page"
     label: "Page Galerie Photos"
-    description: "Vous pouvez modifier le contenu de l'en-tête de la page galerie de photos, ainsi que gérer toutes les galeries photo, ajouter ou suprrimer des photos pour chacune de  ces galeries."
+    description: "Vous pouvez modifier le contenu de l'en-tête de la page galerie de photos, et gérer toutes les galeries photos, ajouter ou suprrimer des photos pour chacune de ces galeries."
     files: 
       - name: "gallery-parameters"
         label: "Paramétrages globaux de la page"
