@@ -1,13 +1,12 @@
 {
-  "page-title": "Contact",
-
-  "firstname-label": "Nom :",
+  "firstname-label": "Votre nom :",
+  "email-label": "Votre mail :",
+  "lastname-label": "Votre prénom :",
+  "msg-label": "Votre message :",
+  "button-text": "Envoyez",
   "firstname-error": "Le nom est requis",
-  "lastname-label": "Prénom :",
-  "lastname-error": "Le prénom est requis",
-  "email-label": "Mail :",
   "email-error": "Le mail n'est pas au bon format",
-  "msg-label": "Message :",
+  "page-title": "Contact",
   "msg-error": "Le message est requis",
-  "button-text": "Envoyer"
+  "lastname-error": "Le prénom est requis"
 }
