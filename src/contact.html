@@ -8,7 +8,7 @@ layout: layout/base.html
       {{ page_contact.page-title}}
   </h1>
 
-  <div class="blue-container p-5 contact-container">
+  <div class="blue-container p-4 contact-container">
     
     <form name="contact" method="POST" id="contact-form" novalidate data-netlify-recaptcha="true" data-netlify="true">
       <div class="mb-3">
@@ -42,7 +42,7 @@ layout: layout/base.html
           {{page_contact.msg-error}}
         </div>
       </div>
-      <div data-netlify-recaptcha="true">
+      <div class="mb-2" data-netlify-recaptcha="true">
       </div>
       <button type="submit" id="send" class="m-auto">{{page_contact.button-text}}</button>
     </form>
