@@ -1,6 +1,6 @@
 
 const servicesDivs = document.querySelectorAll(".service-container"); 
-const servicesTitles = document.querySelectorAll(".service-container h2"); 
+const servicesTitles = document.querySelectorAll(".service-container h3"); 
 const servicesPrices = document.querySelectorAll(".service-price"); 
 
 servicesDivs.forEach((div, index) => {
