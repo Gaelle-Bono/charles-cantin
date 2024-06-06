@@ -10,7 +10,7 @@ layout: layout/base.html
 
   <div class="blue-container p-5 contact-container">
     
-    <form name="contact" method="POST" id="contact-form" novalidate netlify>
+    <form name="contact" method="POST" id="contact-form" novalidate data-netlify-recaptcha="true" data-netlify="true">
       <div class="mb-3">
         <label for="firstname" class="form-label">{{page_contact.firstname-label}}</label>
         <input type="text" class="form-control" id="firstname" name="firstname" required />
@@ -42,7 +42,9 @@ layout: layout/base.html
           {{page_contact.msg-error}}
         </div>
       </div>
-      <button type="submit" id="send" class="m-auto g-recaptcha" data-sitekey="6LfPdvIpAAAAAJG0Dse0eoFI9dbIpyL_uXK8pp44" data-callback="onSubmit">{{page_contact.button-text}}</button>
+      <div data-netlify-recaptcha="true">
+      </div>
+      <button type="submit" id="send" class="m-auto">{{page_contact.button-text}}</button>
     </form>
   </div>
-</div> 
+</div>
