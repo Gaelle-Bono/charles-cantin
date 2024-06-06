@@ -18,5 +18,4 @@ Pour construire votre site et produire le résultat dans le dossier _site, il fa
 
 Pour démarrer un serveur local, il faudra executer la commande npm start
 
-Dans le navigateur, accéder à l'adresse http://localhost:8080/ pour visualiser le site 
-
+Dans le navigateur, accéder à l'adresse http://localhost:8080/ pour visualiser le site.
