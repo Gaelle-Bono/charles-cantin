@@ -79,7 +79,7 @@ Authentification de l'utilisateur
 </script>
 
 - configurer le fichier config.yml 
-- commiter les modifications sur le dépôt distant. 
+- "commiter" les modifications sur le dépôt distant. 
 
 - le site en production est accessible à l'adresse 
 https://charles-cantin-gaelle.netlify.app/
